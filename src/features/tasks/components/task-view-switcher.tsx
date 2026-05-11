@@ -18,11 +18,30 @@ import { DataTable } from "./data-table";
 import { DataKanban } from "./data-kanban";
 import { DataCalendar } from "./data-calendar";
 
-import { TaskStatus } from "../types";
+import { Task, TaskStatus } from "../types";
 import { useGetTasks } from "../api/use-get-tasks";
 import { useTaskFilters } from "../hooks/use-task-filters";
 import { useCreateTaskModal } from "../hooks/use-create-task-modal";
 import { useBulkUpdateTasks } from "../api/use-bulk-update-tasks";
+
+const d = (day: number) => {
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth(), day).toISOString();
+};
+const doc = (id: string) => ({ $id: id, $collectionId: "", $databaseId: "", $createdAt: "", $updatedAt: "", $permissions: [] as string[] });
+
+const DEFAULT_TASKS: Task[] = [
+  { ...doc("t1"), name: "Review Inventory Levels", status: TaskStatus.IN_PROGRESS, workspaceId: "", assigneeId: "", projectId: "", position: 1, dueDate: d(3) },
+  { ...doc("t2"), name: "Supplier Audit – Atlanta DC", status: TaskStatus.TODO, workspaceId: "", assigneeId: "", projectId: "", position: 2, dueDate: d(6) },
+  { ...doc("t3"), name: "Demand Forecast Q3", status: TaskStatus.IN_REVIEW, workspaceId: "", assigneeId: "", projectId: "", position: 3, dueDate: d(9) },
+  { ...doc("t4"), name: "Warehouse Capacity Planning", status: TaskStatus.DONE, workspaceId: "", assigneeId: "", projectId: "", position: 4, dueDate: d(11) },
+  { ...doc("t5"), name: "Transport Route Optimisation", status: TaskStatus.IN_PROGRESS, workspaceId: "", assigneeId: "", projectId: "", position: 5, dueDate: d(13) },
+  { ...doc("t6"), name: "Order Backlog Review", status: TaskStatus.BACKLOG, workspaceId: "", assigneeId: "", projectId: "", position: 6, dueDate: d(15) },
+  { ...doc("t7"), name: "Finance Reconciliation", status: TaskStatus.TODO, workspaceId: "", assigneeId: "", projectId: "", position: 7, dueDate: d(18) },
+  { ...doc("t8"), name: "Procurement Sign-off", status: TaskStatus.IN_REVIEW, workspaceId: "", assigneeId: "", projectId: "", position: 8, dueDate: d(20) },
+  { ...doc("t9"), name: "Risk Assessment – Tier 2", status: TaskStatus.IN_PROGRESS, workspaceId: "", assigneeId: "", projectId: "", position: 9, dueDate: d(22) },
+  { ...doc("t10"), name: "KPI Dashboard Update", status: TaskStatus.DONE, workspaceId: "", assigneeId: "", projectId: "", position: 10, dueDate: d(25) },
+];
 
 interface TaskViewSwitcherProps {
   hideProjectFilter?: boolean;
@@ -45,8 +64,8 @@ export const TaskViewSwitcher = ({ hideProjectFilter }: TaskViewSwitcherProps) =
 
   const { mutate: bulkUpdate } = useBulkUpdateTasks();
 
-  const { 
-    data: tasks, 
+  const {
+    data: tasks,
     isLoading: isLoadingTasks
   } = useGetTasks({
     workspaceId,
@@ -63,6 +82,10 @@ export const TaskViewSwitcher = ({ hideProjectFilter }: TaskViewSwitcherProps) =
       json: { tasks },
     });
   }, [bulkUpdate]);
+
+  const taskDocuments = workspaceId
+    ? (tasks?.documents ?? [])
+    : DEFAULT_TASKS;
 
   return (
     <Tabs
@@ -104,21 +127,21 @@ export const TaskViewSwitcher = ({ hideProjectFilter }: TaskViewSwitcherProps) =
         <DottedSeparator className="my-4" />
           <DataFilters hideProjectFilter={hideProjectFilter} />
         <DottedSeparator className="my-4" />
-        {isLoadingTasks ? (
+        {isLoadingTasks && workspaceId ? (
           <div className="w-full border rounded-lg h-[200px] flex flex-col items-center justify-center">
             <Loader className="size-5 animate-spin text-muted-foreground" />
           </div>
         ) : (
           <>
             <TabsContent value="table" className="mt-0">
-              <DataTable columns={columns} data={tasks?.documents ?? []} />
-            </TabsContent>  
+              <DataTable columns={columns} data={taskDocuments} />
+            </TabsContent>
             <TabsContent value="kanban" className="mt-0">
-              <DataKanban onChange={onKanbanChange} data={tasks?.documents ?? []} />
-            </TabsContent>  
+              <DataKanban onChange={onKanbanChange} data={taskDocuments} />
+            </TabsContent>
             <TabsContent value="calendar" className="mt-0 h-full pb-4">
-              <DataCalendar data={tasks?.documents ?? []} />
-            </TabsContent>  
+              <DataCalendar data={taskDocuments} />
+            </TabsContent>
           </>
         )}
       </div>

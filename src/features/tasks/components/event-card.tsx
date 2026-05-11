@@ -41,7 +41,7 @@ export const EventCard = ({
     e: React.MouseEvent<HTMLDivElement>
   ) => {
     e.stopPropagation();
-
+    if (!workspaceId) return;
     router.push(`/workspaces/${workspaceId}/tasks/${id}`);
   };
 

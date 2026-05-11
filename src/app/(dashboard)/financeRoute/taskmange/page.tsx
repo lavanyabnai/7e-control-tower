@@ -1,14 +1,10 @@
-// import { redirect } from "next/navigation";
+"use client";
+import { TaskViewSwitcher } from "@/features/tasks/components/task-view-switcher";
 
-// import { getCurrent } from "@/features/auth/queries";
-
-import { WorkspaceIdClient } from "@/app/(dashboard)/client";
-
-const WorkspaceIdPage = async () => {
-  // const user = await getCurrent();
-  // if (!user) redirect("/sign-in");
-
-  return <WorkspaceIdClient />
-};
- 
-export default WorkspaceIdPage;
+export default function TaskmangePage() {
+  return (
+    <div className="h-full flex flex-col p-4">
+      <TaskViewSwitcher hideProjectFilter />
+    </div>
+  );
+}
