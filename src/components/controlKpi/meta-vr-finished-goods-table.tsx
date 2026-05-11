@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -11,12 +11,12 @@ import { MoreHorizontal, AlertTriangle, Search, TrendingUp, TrendingDown } from 
 
 const finishedGoodsData = [
   {
-    distributionCenter: "Ferguson DC - Newport News, VA",
-    productModel: "Bradford White 40-gal Water Heater",
-    sku: "FRG-WH-4050",
+    distributionCenter: "7-Eleven DC - Irving, TX",
+    productModel: "Monster Energy Drink 16oz",
+    sku: "7EL-EB-1600",
     currentStock: 12450,
     forecastDemand: 18000,
-    retailPartner: "Plumbing Contractor Accounts",
+    retailPartner: "Circle K Franchisee Group",
     region: "Mid-Atlantic",
     alertType: "Stock Shortage",
     daysOfInventory: 23,
@@ -27,12 +27,12 @@ const finishedGoodsData = [
     priority: "high",
   },
   {
-    distributionCenter: "Ferguson DC - Dallas, TX",
-    productModel: "Rheem 50-gal Electric Water Heater",
-    sku: "FRG-WH-5060E",
+    distributionCenter: "7-Eleven DC - Dallas, TX",
+    productModel: "Slurpee Frozen Drink 32oz",
+    sku: "7EL-SL-3200",
     currentStock: 8920,
     forecastDemand: 7500,
-    retailPartner: "HVAC Contractor Accounts",
+    retailPartner: "Casey's General Stores",
     region: "South Central",
     alertType: "Optimal Stock",
     daysOfInventory: 47,
@@ -43,12 +43,12 @@ const finishedGoodsData = [
     priority: "normal",
   },
   {
-    distributionCenter: "Ferguson DC - Mocksville, NC",
-    productModel: "A.O. Smith Tankless Unit",
-    sku: "FRG-WH-TNKLS",
+    distributionCenter: "7-Eleven DC - Memphis, TN",
+    productModel: "Doritos Nacho Cheese 9.25oz",
+    sku: "7EL-SN-9250",
     currentStock: 2340,
     forecastDemand: 8500,
-    retailPartner: "General Contractor Accounts",
+    retailPartner: "Alimentation Couche-Tard",
     region: "Southeast",
     alertType: "Critical Shortage",
     daysOfInventory: 12,
@@ -59,12 +59,12 @@ const finishedGoodsData = [
     priority: "critical",
   },
   {
-    distributionCenter: "Ferguson DC - Denver, CO",
-    productModel: "Trane 15 SEER AC Condensing Unit",
-    sku: "FRG-HV-SEER15",
+    distributionCenter: "7-Eleven DC - Denver, CO",
+    productModel: "Corona Extra 6-Pack",
+    sku: "7EL-AL-6006",
     currentStock: 15680,
     forecastDemand: 12000,
-    retailPartner: "HVAC Contractor Accounts",
+    retailPartner: "Wawa Inc",
     region: "Mountain West",
     alertType: "Overstock",
     daysOfInventory: 65,
@@ -75,12 +75,12 @@ const finishedGoodsData = [
     priority: "low",
   },
   {
-    distributionCenter: "Ferguson DC - Phoenix, AZ",
-    productModel: "Carrier 3-Ton Heat Pump",
-    sku: "FRG-HV-HP3T",
+    distributionCenter: "7-Eleven DC - Phoenix, AZ",
+    productModel: "Tylenol Extra Strength 24ct",
+    sku: "7EL-HW-2400",
     currentStock: 4560,
     forecastDemand: 9200,
-    retailPartner: "HVAC Contractor Accounts",
+    retailPartner: "Speedway LLC",
     region: "Southwest",
     alertType: "Stock Shortage",
     daysOfInventory: 18,
@@ -91,12 +91,12 @@ const finishedGoodsData = [
     priority: "high",
   },
   {
-    distributionCenter: "Ferguson DC - Chicago, IL",
-    productModel: "6in Ductile Iron Gate Valve",
-    sku: "FRG-WW-GV6",
+    distributionCenter: "7-Eleven DC - Chicago, IL",
+    productModel: "Gatorade Fruit Punch 32oz",
+    sku: "7EL-BV-3200",
     currentStock: 3420,
     forecastDemand: 4500,
-    retailPartner: "Municipal Water Departments",
+    retailPartner: "NRF Distributors",
     region: "Midwest",
     alertType: "Low Stock",
     daysOfInventory: 28,
@@ -107,12 +107,12 @@ const finishedGoodsData = [
     priority: "normal",
   },
   {
-    distributionCenter: "Ferguson DC - Atlanta, GA",
-    productModel: "1in Copper Press Fitting Kit",
-    sku: "FRG-FIT-CU1KIT",
+    distributionCenter: "7-Eleven DC - Atlanta, GA",
+    productModel: "Big Bite Hot Dog",
+    sku: "7EL-BB-1001",
     currentStock: 1890,
     forecastDemand: 2800,
-    retailPartner: "Plumbing Contractor Accounts",
+    retailPartner: "Circle K Franchisee Group",
     region: "Southeast",
     alertType: "Stock Shortage",
     daysOfInventory: 24,
@@ -123,12 +123,12 @@ const finishedGoodsData = [
     priority: "high",
   },
   {
-    distributionCenter: "Ferguson DC - Sacramento, CA",
-    productModel: "Fire Sprinkler Head - Residential Pendent",
-    sku: "FRG-FP-SPRNK12",
+    distributionCenter: "7-Eleven DC - Sacramento, CA",
+    productModel: "Marlboro Gold 20pk",
+    sku: "7EL-TM-2001",
     currentStock: 7240,
     forecastDemand: 6800,
-    retailPartner: "Fire Protection Contractors",
+    retailPartner: "Sheetz Inc",
     region: "West Coast",
     alertType: "Optimal Stock",
     daysOfInventory: 42,
@@ -191,8 +191,8 @@ export default function MetaVRFinishedGoodsTable() {
       <div className="flex items-center justify-between">
         <div>
          
-          <h1 className="mt-2 text-2xl font-bold">Ferguson Finished Goods Inventory</h1>
-          <p className="text-muted-foreground">Monitor wholesale distribution and contractor account inventory levels</p>
+          <h1 className="mt-2 text-2xl font-bold">7-Eleven Finished Goods Inventory</h1>
+          <p className="text-muted-foreground">Monitor convenience store distribution and franchise account inventory levels</p>
         </div>
         <div className="text-right">
           <div className="text-2xl font-bold">{totalUnits.toLocaleString()}</div>

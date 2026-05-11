@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
@@ -29,11 +29,11 @@ interface FilterState {
 
 // SKU definitions
 const skuData: SKUData[] = [
-  { id: "frg-wh-3200", name: "50-Gal Electric Water Heater", price: 649, category: "Water Heaters" },
-  { id: "frg-wh-8000", name: "Rheem 80-Gal Commercial Water Heater", price: 2450, category: "Water Heaters" },
-  { id: "frg-px-4410", name: "1/2in PEX Tubing 100ft", price: 89, category: "Pipe & Fittings" },
-  { id: "frg-hv-5000", name: "Trane 5-Ton Rooftop Unit", price: 8750, category: "HVAC" },
-  { id: "frg-fp-2200", name: "Viking Fire Sprinkler Head", price: 18, category: "Fire Protection" },
+  { id: "7EL-wh-3200", name: "Monster Energy Drink 16oz", price: 649, category: "Energy Drinks" },
+  { id: "7EL-wh-8000", name: "Marlboro Red 20pk", price: 2450, category: "Tobacco" },
+  { id: "7EL-px-4410", name: "Slurpee Frozen Drink 32oz", price: 89, category: "Beverages" },
+  { id: "7EL-hv-5000", name: "Corona Extra 6-Pack", price: 8750, category: "Alcohol" },
+  { id: "7EL-fp-2200", name: "Marlboro Gold 20pk", price: 18, category: "Tobacco" },
 ]
 
 const regions = [
@@ -253,7 +253,7 @@ const getWeekHeaders = (): string[] => {
 
 export default function MetaQuestInventory() {
   const [filters, setFilters] = useState<FilterState>({
-    sku: "frg-wh-3200",
+    sku: "7EL-wh-3200",
     region: "global",
     scenario: "base",
   })
@@ -270,7 +270,7 @@ export default function MetaQuestInventory() {
     <div className="w-full space-y-6">
       <Card>
         <CardHeader>
-          <CardTitle className="text-2xl font-bold">Inventory Projections - Ferguson Products</CardTitle>
+          <CardTitle className="text-2xl font-bold">Inventory Projections - 7-Eleven Products</CardTitle>
 
           {/* Filter Controls */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">

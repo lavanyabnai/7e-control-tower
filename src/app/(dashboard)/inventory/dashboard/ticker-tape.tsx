@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import tiles from "@/components/sme/flowerTile.jpg"
@@ -7,8 +7,8 @@ import Link from "next/link";
 const invoices = [
   {
     image: tiles,
-    name: "1/2in PEX Tubing 100ft",
-    change: "Ferguson DC Dallas",
+    name: "Slurpee Frozen Drink 32oz",
+    change: "7-Eleven DC Dallas",
     percentChange: "Stockout",
     link: "#",
     
@@ -23,7 +23,7 @@ const invoices = [
   {
     image: truck,
     name: "Supplier 1",
-    change: "4in Ductile Iron Pipe",
+    change: "Doritos Nacho Cheese 9.25oz",
     percentChange: "Out of Capacity",
     link: "#",
   },
@@ -35,8 +35,8 @@ const invoices = [
     link: "#",
   },  {
     image: tiles,
-    name: "1/2in PEX Tubing 100ft",
-    change: "Ferguson DC Dallas",
+    name: "Slurpee Frozen Drink 32oz",
+    change: "7-Eleven DC Dallas",
     percentChange: "Stockout",
     link: "#",
     
@@ -51,7 +51,7 @@ const invoices = [
   {
     image: truck,
     name: "Supplier 1",
-    change: "4in Ductile Iron Pipe",
+    change: "Doritos Nacho Cheese 9.25oz",
     percentChange: "Out of Capacity",
     link: "#",
   },

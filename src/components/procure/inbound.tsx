@@ -6,7 +6,7 @@ const shipments = [
   {
     shipment: "OR439-O-1",
     track: "TRK7890123",
-    supplier: "Watts Water Technologies",
+    supplier: "Anheuser-Busch InBev",
     reqDate: "03/24/2025",
     reqQty: "80",
     shippedEtaQty: "80",
@@ -16,7 +16,7 @@ const shipments = [
   {
     shipment: "OR439-O-2",
     track: "TRK4567890",
-    supplier: "Watts Water Technologies",
+    supplier: "Anheuser-Busch InBev",
     reqDate: "03/26/2025",
     reqQty: "200",
     shippedEtaQty: "120",
@@ -26,7 +26,7 @@ const shipments = [
   {
     shipment: "OR209-L-1",
     track: "TRK1234567",
-    supplier: "Rheem Manufacturing",
+    supplier: "Coca-Cola Company",
     reqDate: "04/02/2025",
     reqQty: "150",
     shippedEtaQty: "150",

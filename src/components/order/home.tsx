@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import { Alert, AlertDescription } from "@/components/ui/alert"
@@ -29,7 +29,7 @@ export default function Dashboard() {
           <AlertTriangle className="h-4 w-4 text-red-600" />
           <AlertDescription className="text-red-800">
             <strong>You have 1 Network Alert that needs your Immediate Attention:</strong> Network Inventory LOW for
-            1/2in PEX TUBING 100FT, risking Stock-Out in Ferguson DC Portland, consider lowering Max Allowed Demand (currently
+            SLURPEE FROZEN DRINK 32OZ, risking Stock-Out in 7-Eleven DC Portland, consider lowering Max Allowed Demand (currently
             set at DOUBLE Supply Days).
           </AlertDescription>
         </Alert>
@@ -72,7 +72,7 @@ export default function Dashboard() {
                         <span className="text-white text-xs">📦</span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Order of 2 pallets of 3/4in COPPER COUPLING 100-PACK requested to ship on Thu, Mar 13, 2025.
+                        Order of 2 pallets of MONSTER ENERGY DRINK 16OZ requested to ship on Thu, Mar 13, 2025.
                       </p>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export default function Dashboard() {
                         <span className="text-white text-xs">📦</span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Order of 1 pallet of 50-GAL ELECTRIC WATER HEATER requested to ship on Thu, Mar 13, 2025.
+                        Order of 1 pallet of CORONA EXTRA 6-PACK requested to ship on Thu, Mar 13, 2025.
                       </p>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function Dashboard() {
                         <span className="text-white text-xs">📦</span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Processing order of 1 pallet of 1/2in PEX TUBING 100FT with requested ship date of Thu, Mar
+                        Processing order of 1 pallet of SLURPEE FROZEN DRINK 32OZ with requested ship date of Thu, Mar
                         13, 2025.
                       </p>
                     </div>
@@ -127,7 +127,7 @@ export default function Dashboard() {
                         <span className="text-white text-xs">📦</span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Processing order of 2 pallets of 3/4in COPPER COUPLING 100-PACK with requested ship date of Thu,
+                        Processing order of 2 pallets of MONSTER ENERGY DRINK 16OZ with requested ship date of Thu,
                         Mar 13, 2025.
                       </p>
                     </div>
@@ -146,7 +146,7 @@ export default function Dashboard() {
                         <span className="text-white text-xs">📦</span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Processing order of 3 pallets of 50-GAL ELECTRIC WATER HEATER with requested ship date of Thu,
+                        Processing order of 3 pallets of CORONA EXTRA 6-PACK with requested ship date of Thu,
                         Mar 13, 2025.
                       </p>
                     </div>
@@ -247,13 +247,13 @@ export default function Dashboard() {
                   <div className="space-y-3">
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center">
-                        <span className="text-orange-600 text-xs">🔧</span>
+                        <span className="text-orange-600 text-xs">🧃</span>
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-medium text-sm">Spring Construction Season - PEX Repiping Kits</h4>
+                        <h4 className="font-medium text-sm">Summer Refresh - Slurpee & Energy Drink Bundle Packs</h4>
                         <p className="text-xs text-gray-600 mt-1">
-                          <strong>Description:</strong> Pre-packaged PEX repiping kits for residential whole-house
-                          repiping projects. Bundled with fittings, manifolds, and crimp tools for contractor convenience.
+                          <strong>Description:</strong> Pre-packaged bundle promotions for Slurpee and energy drink
+                          combo deals. Bundled with cups, straws, and loyalty rewards for franchise convenience.
                         </p>
                         <p className="text-xs text-gray-600">
                           <strong>Period:</strong> Running from March to June across the US distribution network.
@@ -263,13 +263,13 @@ export default function Dashboard() {
 
                     <div className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center">
-                        <span className="text-orange-600 text-xs">❄️</span>
+                        <span className="text-orange-600 text-xs">🍺</span>
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-medium text-sm">HVAC Pre-Season Program - Residential AC Units</h4>
+                        <h4 className="font-medium text-sm">Game Day Promotion - Beer & Snack Combo Deals</h4>
                         <p className="text-xs text-gray-600 mt-1">
-                          <strong>Description:</strong> Early-buy pricing on Carrier and Trane residential split-system
-                          AC units ahead of peak summer demand. Volume discounts for HVAC contractor accounts.
+                          <strong>Description:</strong> Early-buy pricing on Corona Extra and Doritos combo packs
+                          ahead of peak sports season demand. Volume discounts for franchise accounts.
                         </p>
                       </div>
                     </div>

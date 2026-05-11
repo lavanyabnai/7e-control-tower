@@ -21,9 +21,9 @@ import {
 } from '@heroicons/react/24/outline';
 import { useParams } from 'next/navigation';
 const chartData = [
-  { Hours: "Plumbing", rate: 88 },
-  { Hours: "HVAC", rate: 91 },
-  { Hours: "Waterworks", rate: 86 }
+  { Hours: "Beverages", rate: 88 },
+  { Hours: "Alcohol", rate: 91 },
+  { Hours: "Tobacco", rate: 86 }
 ]
 
 const chartConfig = {

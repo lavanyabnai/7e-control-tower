@@ -1,14 +1,14 @@
-[
+﻿[
   {
     "Name": "Los Angeles",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "New York",
     "Include": "Full",
     "AdditionalParameter": "Parameter 0"
   },
   {
     "Name": "Chicago",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Los Angeles",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 1"
@@ -29,7 +29,7 @@
   },
   {
     "Name": "Philadelphia",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Phoenix",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 4"
@@ -43,7 +43,7 @@
   },
   {
     "Name": "San Diego",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "San Antonio",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 6"
@@ -57,7 +57,7 @@
   },
   {
     "Name": "San Jose",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Dallas",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 8"
@@ -71,7 +71,7 @@
   },
   {
     "Name": "Jacksonville",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Austin",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 10"
@@ -85,7 +85,7 @@
   },
   {
     "Name": "Columbus",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Fort Worth",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 12"
@@ -99,7 +99,7 @@
   },
   {
     "Name": "Charlotte",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "San Francisco",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 14"
@@ -113,7 +113,7 @@
   },
   {
     "Name": "Seattle",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Indianapolis",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 16"
@@ -127,7 +127,7 @@
   },
   {
     "Name": "Washington",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Denver",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 18"
@@ -141,7 +141,7 @@
   },
   {
     "Name": "El Paso",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Boston",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 20"
@@ -155,7 +155,7 @@
   },
   {
     "Name": "Nashville",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Detroit",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 22"
@@ -169,7 +169,7 @@
   },
   {
     "Name": "Portland",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Memphis",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 24"
@@ -183,7 +183,7 @@
   },
   {
     "Name": "Las Vegas",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Oklahoma City",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 26"
@@ -197,7 +197,7 @@
   },
   {
     "Name": "Baltimore",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Louisville",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 28"
@@ -211,7 +211,7 @@
   },
   {
     "Name": "Albuquerque",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Milwaukee",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 30"
@@ -225,7 +225,7 @@
   },
   {
     "Name": "Fresno",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Tucson",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 32"
@@ -239,7 +239,7 @@
   },
   {
     "Name": "Mesa",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Sacramento",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 34"
@@ -253,7 +253,7 @@
   },
   {
     "Name": "Atlanta",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Kansas City",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 36"
@@ -267,7 +267,7 @@
   },
   {
     "Name": "Miami",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Omaha",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 38"
@@ -281,7 +281,7 @@
   },
   {
     "Name": "Minneapolis",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Oakland",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 40"
@@ -295,7 +295,7 @@
   },
   {
     "Name": "Arlington",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Tulsa",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 42"
@@ -309,7 +309,7 @@
   },
   {
     "Name": "Wichita",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "New Orleans",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 44"
@@ -323,7 +323,7 @@
   },
   {
     "Name": "Tampa",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Cleveland",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 46"
@@ -337,7 +337,7 @@
   },
   {
     "Name": "Aurora",
-    "Type": "Plumbing Contractor",
+    "Type": "Convenience Retailer",
     "Location": "Bakersfield",
     "Include": "Partial",
     "AdditionalParameter": "Parameter 48"

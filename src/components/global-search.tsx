@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
@@ -19,7 +19,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 const recentSearches = [
   { id: "ORD-5498", type: "order", title: "Customer 123 Order" },
   { id: "SHP-ID-9876", type: "shipment", title: "Carrier 1 Shipment" },
-  { id: "FRG-PX-4410", type: "customer", title: "Ferguson DC Dallas Stockout" },
+  { id: "7EL-PX-4410", type: "customer", title: "7-Eleven DC Dallas Stockout" },
 ]
 
 const quickLinks = [

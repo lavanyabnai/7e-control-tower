@@ -7,7 +7,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 export default function LinkedAlertsTable() {
   const alertsData = [
     {
-      restaurant: "APEX PLUMBING-4659",
+      restaurant: "CIRCLE K FRANCHISEE-4659",
       daysOfSupply: 6,
       totalCases: 2,
       totalCasesSupplyDays: 1,
@@ -16,7 +16,7 @@ export default function LinkedAlertsTable() {
       description: "No Action Taken On Alert Yet",
     },
     {
-      restaurant: "SUMMIT MECHANICAL-13531",
+      restaurant: "CASEY'S GENERAL STORES-13531",
       daysOfSupply: 13,
       totalCases: 8,
       totalCasesSupplyDays: 1,
@@ -25,7 +25,7 @@ export default function LinkedAlertsTable() {
       description: "No Action Taken On Alert Yet",
     },
     {
-      restaurant: "METRO CONTRACTORS-3652",
+      restaurant: "WAWA CONVENIENCE-3652",
       daysOfSupply: 35,
       totalCases: 1,
       totalCasesSupplyDays: 0,
@@ -34,7 +34,7 @@ export default function LinkedAlertsTable() {
       description: "No Action Taken On Alert Yet",
     },
     {
-      restaurant: "VALLEY HVAC-11792",
+      restaurant: "SHEETZ CONVENIENCE-11792",
       daysOfSupply: 2,
       totalCases: 5,
       totalCasesSupplyDays: 2,

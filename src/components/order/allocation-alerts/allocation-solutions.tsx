@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -39,7 +39,7 @@ export default function AllocationSolutions() {
     {
       title: "Cancel / Reduce Individual Sales Order Quantities to the Minimum - No Transfer Needed",
       originDC: "No value",
-      destinationDC: "FERGUSON DC PORTLAND",
+      destinationDC: "7-Eleven DC PORTLAND",
       freightCost: "No value",
       transferNotStrictlyNeeded: "Yes",
       potentialUpsideRevenue: "No value",
@@ -47,8 +47,8 @@ export default function AllocationSolutions() {
     },
     {
       title: "Transfer Quantity to Fulfill All Orders",
-      originDC: "FERGUSON DC SEATTLE",
-      destinationDC: "FERGUSON DC PORTLAND",
+      originDC: "7-Eleven DC SEATTLE",
+      destinationDC: "7-Eleven DC PORTLAND",
       freightCost: "$901.32",
       transferNotStrictlyNeeded: "Yes",
       potentialUpsideRevenue: "$9,178.68",
@@ -56,8 +56,8 @@ export default function AllocationSolutions() {
     },
     {
       title: "Transfer Quantity to Fulfill All Orders",
-      originDC: "FERGUSON DC SACRAMENTO",
-      destinationDC: "FERGUSON DC PORTLAND",
+      originDC: "7-Eleven DC SACRAMENTO",
+      destinationDC: "7-Eleven DC PORTLAND",
       freightCost: "$1,704.44",
       transferNotStrictlyNeeded: "Yes",
       potentialUpsideRevenue: "$8,375.56",

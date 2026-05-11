@@ -8,7 +8,7 @@ export default function TopCard() {
         <div className="flex rounded-t-lg bg-red-500 items-center text-white p-4">
           <AlertTriangle className="h-8 w-8 mr-2" />
           <span className="font-medium text-base">
-            CRITICAL ALERT: Supplier Capacity Issue - Watts Backflow Preventer 2in at Dallas DC
+            CRITICAL ALERT: Supplier Capacity Issue - Corona Extra 6-Pack at Dallas DC
           </span>
         </div>
 
@@ -35,7 +35,7 @@ export default function TopCard() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg">
         <div className="text-blue-900 h-[160px] rounded-xl border shadow">
-          <h1 className="text-base font-semibold p-4">Item: Watts Backflow Preventer 2in</h1>
+          <h1 className="text-base font-semibold p-4">Item: Corona Extra 6-Pack</h1>
 
           <CardContent className="grid grid-cols-2 items-center gap-4">
             <div className="bg-gray-100 rounded-lg flex items-center justify-center h-20 w-20">
@@ -43,10 +43,10 @@ export default function TopCard() {
             </div>
 
             <div className="flex flex-col gap-y-1 text-sm pb-2">
-              <p>Item ID: FRG-BF-2100</p>
+              <p>Item ID: 7EL-AL-6006</p>
               <p>Type: Product</p>
-              <p>Weight: 8.2 lbs</p>
-              <p>Category: Waterworks</p>
+              <p>Weight: 4.8 lbs</p>
+              <p>Category: Alcohol</p>
             </div>
           </CardContent>
         </div>

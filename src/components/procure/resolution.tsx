@@ -101,11 +101,11 @@ export default function Resolution() {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-gray-500 mt-1.5 mr-2"></span>
-                  <span>Keep 120 units from Watts Water Technologies</span>
+                  <span>Keep 120 units from Anheuser-Busch InBev</span>
                 </li>
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-gray-500 mt-1.5 mr-2"></span>
-                  <span>Order 80 units from Rheem Manufacturing (expedited)</span>
+                  <span>Order 80 units from Coca-Cola Company (expedited)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-green-500 mt-1.5 mr-2"></span>
@@ -142,7 +142,7 @@ export default function Resolution() {
                 <AlertDialogHeader>
                   <AlertDialogTitle>Split Order with Alternate Supplier?</AlertDialogTitle>
                   <AlertDialogDescription>
-                    This will create a purchase order for 80 units from Rheem Manufacturing with expedited shipping at a cost of
+                    This will create a purchase order for 80 units from Coca-Cola Company with expedited shipping at a cost of
                     $5,150. Do you want to proceed?
                   </AlertDialogDescription>
                 </AlertDialogHeader>
@@ -167,11 +167,11 @@ export default function Resolution() {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-gray-500 mt-1.5 mr-2"></span>
-                  <span>Cancel order with Watts Water Technologies</span>
+                  <span>Cancel order with Anheuser-Busch InBev</span>
                 </li>
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-gray-500 mt-1.5 mr-2"></span>
-                  <span>Order full 200 units from Rheem Manufacturing</span>
+                  <span>Order full 200 units from Coca-Cola Company</span>
                 </li>
                 <li className="flex items-start">
                   <span className="h-1.5 w-1.5 rounded-full bg-yellow-500 mt-1.5 mr-2"></span>
@@ -210,8 +210,8 @@ export default function Resolution() {
                 <AlertDialogHeader>
                   <AlertDialogTitle>Switch to Alternate Supplier?</AlertDialogTitle>
                   <AlertDialogDescription>
-                    This will cancel your current order with Watts Water Technologies and create a new purchase order with
-                    Rheem Manufacturing at a cost of $8,350. This may impact your relationship with Watts Water Technologies. Do
+                    This will cancel your current order with Anheuser-Busch InBev and create a new purchase order with
+                    Coca-Cola Company at a cost of $8,350. This may impact your relationship with Anheuser-Busch InBev. Do
                     you want to proceed?
                   </AlertDialogDescription>
                 </AlertDialogHeader>

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -10,10 +10,10 @@ export default function ActionsNeeded() {
   const actionsData = [
     {
       type: "Production Order",
-      title: "Produce 3048 Pallets of 1/2in PEX TUBING 100FT",
+      title: "Produce 3048 Pallets of SLURPEE FROZEN DRINK 32OZ",
       dueDate: "2025-03-23",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 3048,
     },
     {
@@ -21,7 +21,7 @@ export default function ActionsNeeded() {
       title: "Ship 503 Pallets to McMinnville, TN",
       dueDate: "2025-03-27",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 503,
     },
     {
@@ -29,7 +29,7 @@ export default function ActionsNeeded() {
       title: "Ship 746 Pallets to Montgomery, AL",
       dueDate: "2025-03-27",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 746,
     },
     {
@@ -37,7 +37,7 @@ export default function ActionsNeeded() {
       title: "Ship 562 Pallets to Ashland City, TN",
       dueDate: "2025-03-27",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 562,
     },
     {
@@ -45,15 +45,15 @@ export default function ActionsNeeded() {
       title: "Ship 1237 Pallets to Charlotte, NC",
       dueDate: "2025-03-27",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 1237,
     },
     {
       type: "Production Order",
-      title: "Produce 2821 Pallets of 1/2in PEX TUBING 100FT",
+      title: "Produce 2821 Pallets of SLURPEE FROZEN DRINK 32OZ",
       dueDate: "2025-03-31",
       status: "Instructions Sent",
-      item: "1/2in PEX TUBING 100FT (FRG-PX-4410)",
+      item: "SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)",
       quantity: 2821,
     },
   ]
@@ -93,7 +93,7 @@ export default function ActionsNeeded() {
               <TableHead>Distribution Solution Title</TableHead>
               <TableHead>Due Date</TableHead>
               <TableHead>Status</TableHead>
-              <TableHead>Ferguson Item</TableHead>
+              <TableHead>7-Eleven Item</TableHead>
               <TableHead>Qty</TableHead>
             </TableRow>
           </TableHeader>

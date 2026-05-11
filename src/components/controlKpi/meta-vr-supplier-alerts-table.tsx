@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,10 +10,10 @@ import Link from "next/link"
 
 const supplierAlertsData = [
   {
-    supplierName: "Bradford White Corporation",
+    supplierName: "Coca-Cola Company",
     supplierCode: "BW-001",
-    componentType: "40-gal Gas Water Heaters",
-    materialCode: "FRG-WH-4050",
+    componentType: "Energy Drink Products",
+    materialCode: "7EL-EB-1600",
     alertType: "Critical OOS",
     affectedSKUs: 3,
     estimatedImpact: 2850000,
@@ -30,10 +30,10 @@ const supplierAlertsData = [
     onTimeDelivery: 92.5,
   },
   {
-    supplierName: "Trane Technologies",
+    supplierName: "Frito-Lay North America",
     supplierCode: "TRN-002",
-    componentType: "HVAC Condensing Units",
-    materialCode: "FRG-HV-SEER15",
+    componentType: "Snack Products",
+    materialCode: "7EL-SN-9250",
     alertType: "Severe OOS",
     affectedSKUs: 2,
     estimatedImpact: 1950000,
@@ -50,10 +50,10 @@ const supplierAlertsData = [
     onTimeDelivery: 88.2,
   },
   {
-    supplierName: "Charlotte Pipe & Foundry",
+    supplierName: "PepsiCo Inc",
     supplierCode: "CPF-003",
-    componentType: "PVC/Cast Iron Pipe & Fittings",
-    materialCode: "FRG-PV-PIPE",
+    componentType: "Beverage Products",
+    materialCode: "7EL-BV-2000",
     alertType: "Critical OOS",
     affectedSKUs: 4,
     estimatedImpact: 3200000,
@@ -70,10 +70,10 @@ const supplierAlertsData = [
     onTimeDelivery: 94.1,
   },
   {
-    supplierName: "Watts Water Technologies",
+    supplierName: "Anheuser-Busch InBev",
     supplierCode: "WAT-004",
-    componentType: "Pressure Reducing Valves",
-    materialCode: "FRG-VLV-PRV",
+    componentType: "Alcohol Products",
+    materialCode: "7EL-AL-6006",
     alertType: "Moderate OOS",
     affectedSKUs: 2,
     estimatedImpact: 850000,
@@ -92,8 +92,8 @@ const supplierAlertsData = [
   {
     supplierName: "Viega LLC",
     supplierCode: "VGA-005",
-    componentType: "Press Fittings & Connectors",
-    materialCode: "FRG-FIT-PRESS",
+    componentType: "Frozen Food Products",
+    materialCode: "7EL-FF-5500",
     alertType: "Severe OOS",
     affectedSKUs: 3,
     estimatedImpact: 1650000,
@@ -110,10 +110,10 @@ const supplierAlertsData = [
     onTimeDelivery: 86.3,
   },
   {
-    supplierName: "Mueller Water Products",
+    supplierName: "Tyson Foods Inc",
     supplierCode: "MWP-006",
-    componentType: "Waterworks Valves & Hydrants",
-    materialCode: "FRG-WW-VALVE",
+    componentType: "Fresh Food Products",
+    materialCode: "7EL-FF-1001",
     alertType: "Critical OOS",
     affectedSKUs: 2,
     estimatedImpact: 2100000,
@@ -130,10 +130,10 @@ const supplierAlertsData = [
     onTimeDelivery: 91.8,
   },
   {
-    supplierName: "Moen Incorporated",
+    supplierName: "Hershey Company",
     supplierCode: "MOE-007",
-    componentType: "Commercial Faucets & Fixtures",
-    materialCode: "FRG-PLB-FAUCET",
+    componentType: "Candy & Confectionery",
+    materialCode: "7EL-CN-2400",
     alertType: "Moderate OOS",
     affectedSKUs: 1,
     estimatedImpact: 680000,
@@ -150,10 +150,10 @@ const supplierAlertsData = [
     onTimeDelivery: 87.9,
   },
   {
-    supplierName: "Carrier Global Corporation",
+    supplierName: "Kellogg Company",
     supplierCode: "CGC-008",
-    componentType: "Heat Pump Systems",
-    materialCode: "FRG-HV-HEATPUMP",
+    componentType: "Breakfast & Snack Bars",
+    materialCode: "7EL-SN-0850",
     alertType: "Severe OOS",
     affectedSKUs: 3,
     estimatedImpact: 1420000,
@@ -248,7 +248,7 @@ export default function MetaVRSupplierAlertsTable() {
               Back to Supply Chain Control Tower
             </Button>
           </Link>
-          <h1 className="mt-2 text-2xl font-bold">Ferguson Supplier OOS Alerts</h1>
+          <h1 className="mt-2 text-2xl font-bold">7-Eleven Supplier OOS Alerts</h1>
           <p className="text-muted-foreground">Monitor critical supplier shortages and out-of-stock situations</p>
         </div>
         <div className="flex items-center gap-4">

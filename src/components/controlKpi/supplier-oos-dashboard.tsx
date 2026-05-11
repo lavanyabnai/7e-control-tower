@@ -67,15 +67,15 @@ export default function SupplierOOSDashboard({ supplierData }: SupplierOOSDashbo
   ]
 
   const componentBreakdown = [
-    { name: "Bradford White 40-gal Water Heater", shortage: 98, impact: 1200000 },
-    { name: "Rheem 50-gal Electric Water Heater", shortage: 95, impact: 980000 },
-    { name: "A.O. Smith Tankless Unit", shortage: 94, impact: 670000 },
+    { name: "Monster Energy Drink 16oz", shortage: 98, impact: 1200000 },
+    { name: "Slurpee Frozen Drink 32oz", shortage: 95, impact: 980000 },
+    { name: "Gatorade Fruit Punch 32oz", shortage: 94, impact: 670000 },
   ]
 
   const alternativeSuppliers = [
     {
-      name: "Rinnai America",
-      location: "Peachtree City, GA",
+      name: "Red Bull North America",
+      location: "Santa Monica, CA",
       capacity: "75% of required",
       leadTime: "14-21 days",
       qualityRating: 4.6,
@@ -83,8 +83,8 @@ export default function SupplierOOSDashboard({ supplierData }: SupplierOOSDashbo
       availability: "Available",
     },
     {
-      name: "Navien Inc.",
-      location: "Irvine, CA",
+      name: "Monster Beverage Corp",
+      location: "Corona, CA",
       capacity: "60% of required",
       leadTime: "21-28 days",
       qualityRating: 4.4,
@@ -92,8 +92,8 @@ export default function SupplierOOSDashboard({ supplierData }: SupplierOOSDashbo
       availability: "Partial",
     },
     {
-      name: "Noritz America",
-      location: "Fountain Valley, CA",
+      name: "Rockstar Energy",
+      location: "Purchase, NY",
       capacity: "45% of required",
       leadTime: "28-35 days",
       qualityRating: 4.3,

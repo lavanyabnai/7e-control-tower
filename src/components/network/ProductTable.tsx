@@ -69,10 +69,10 @@ const product = [
   },
   {
     ProductId: 108,
-    ProductName: '1/2in PEX Tubing 100ft',
-    Price: 300.0,
-    Cost: 150.0,
-    Segment: 'Building Supplies',
+    ProductName: 'Slurpee Frozen Drink 32oz',
+    Price: 3.49,
+    Cost: 1.50,
+    Segment: 'Beverages',
     NumOfSuppliers: 1,
   },
   {
@@ -152,10 +152,10 @@ const customer = [
   },
   {
     Customer: 'Customer008',
-    Product: '1/2in PEX Tubing 100ft',
+    Product: 'Slurpee Frozen Drink 32oz',
     PurchaseDate: '2024-07-04',
-    Price: 300.0,
-    Segment: 'Building Supplies',
+    Price: 3.49,
+    Segment: 'Beverages',
     LifetimeValue: 5000.0,
   },
   {

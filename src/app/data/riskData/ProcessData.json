@@ -1,51 +1,51 @@
-[
+﻿[
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "product": "Product A",
     "type": "Outbound Shipment",
-    "units": "Copper Pipe Pallets",
+    "units": "Beverage Cases",
     "cost": "0.66",
     "currency": "USD",
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Atlanta",
+    "facility": "7-Eleven DC Atlanta",
     "product": "Product A",
     "type": "Outbound Shipment",
-    "units": "Copper Pipe Pallets",
+    "units": "Beverage Cases",
     "cost": "0.66",
     "currency": "USD",
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Atlanta",
+    "facility": "7-Eleven DC Atlanta",
     "product": "Product A",
     "type": "Inbound Shipment",
-    "units": "Copper Pipe Pallets",
+    "units": "Beverage Cases",
     "cost": "1",
     "currency": "USD",
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson Branch Miami",
+    "facility": "7-Eleven Store Miami",
     "product": "Product A",
     "type": "Outbound Shipment",
-    "units": "Copper Pipe Pallets",
+    "units": "Beverage Cases",
     "cost": "0.33",
     "currency": "USD",
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "product": "Product A",
     "type": "Inbound Shipment",
-    "units": "Copper Pipe Pallets",
+    "units": "Beverage Cases",
     "cost": "0.5",
     "currency": "USD",
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "product": "Fitting Kit A",
     "type": "Inbound Shipment",
     "units": "Fitting Kit Pallets",
@@ -54,7 +54,7 @@
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "product": "Copper Raw A",
     "type": "Inbound Shipment",
     "units": "Copper Raw Pallets",
@@ -63,7 +63,7 @@
     "time": "(All periods)"
   },
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "product": "PVC Resin A",
     "type": "Inbound Shipment",
     "units": "PVC Resin Pallets",

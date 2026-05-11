@@ -1,6 +1,6 @@
-[
+﻿[
   {
-    "from": "Ferguson DC Dallas",
+    "from": "7-Eleven DC Dallas",
     "to": "DC",
     "cost": "Product & Distance",
     "costCalculation": "0.07 Product & Distance",
@@ -12,7 +12,7 @@
   },
   {
     "from": "Supplier",
-    "to": "Ferguson DC Dallas",
+    "to": "7-Eleven DC Dallas",
     "cost": "Fixed Delivery",
     "costCalculation": "0",
     "co2Calculation": "0",
@@ -22,7 +22,7 @@
     "transport": "0"
   },
    {
-     "from": "Ferguson DC Atlanta",
+     "from": "7-Eleven DC Atlanta",
      "to": "Customer",
      "cost": "Product & Distance",
      "costCalculation": "0",
@@ -33,7 +33,7 @@
      "transport": "0"
    },
      {
-       "from": "Ferguson Branch Miami",
+       "from": "7-Eleven Store Miami",
        "to": "Customer",
        "cost": "Product & Distance",
        "costCalculation": "0",

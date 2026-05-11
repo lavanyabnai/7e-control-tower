@@ -56,10 +56,10 @@ export default function DemandBalancingDashboard({ demandData }: DemandBalancing
 
   // Mock inventory availability data
   const inventoryData = [
-    { location: "FRG-DC-VA01", available: 12450, allocated: 8200, transit: 1500 },
-    { location: "FRG-DC-TX01", available: 8920, allocated: 6500, transit: 800 },
-    { location: "FRG-DC-NC01", available: 15680, allocated: 12000, transit: 2200 },
-    { location: "FRG-DC-AZ01", available: 4560, allocated: 3800, transit: 600 },
+    { location: "7EL-DC-VA01", available: 12450, allocated: 8200, transit: 1500 },
+    { location: "7EL-DC-TX01", available: 8920, allocated: 6500, transit: 800 },
+    { location: "7EL-DC-NC01", available: 15680, allocated: 12000, transit: 2200 },
+    { location: "7EL-DC-AZ01", available: 4560, allocated: 3800, transit: 600 },
   ]
 
   // Alternative recommendations

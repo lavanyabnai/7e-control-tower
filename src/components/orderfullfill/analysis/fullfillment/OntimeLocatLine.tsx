@@ -14,9 +14,9 @@ import {
 } from "@/components/ui/chart"
 import { CartesianGrid, LabelList, Line, LineChart, ReferenceLine, XAxis } from "recharts"
 const chartData = [
-  { Hours: "Plumbing", rate: 88 },
-  { Hours: "HVAC", rate: 91 },
-  { Hours: "Waterworks", rate: 86 }
+  { Hours: "Beverages", rate: 88 },
+  { Hours: "Alcohol", rate: 91 },
+  { Hours: "Tobacco", rate: 86 }
 ]
 
 const chartConfig = {

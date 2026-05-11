@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,8 +10,8 @@ import Link from "next/link"
 
 const demandBalancingData = [
   {
-    sourceLocation: "FRG-DC-VA01",
-    materialCode: "FRG-WH-4050",
+    sourceLocation: "7EL-DC-VA01",
+    materialCode: "7EL-EB-1600",
     revenueImpact: 4291328,
     unitImpact: 199597,
     impactCoverage: 100.0,
@@ -19,15 +19,15 @@ const demandBalancingData = [
     predictedAction: "Transfer",
     actionPriority: "High",
     dueDate: "01/18/2025",
-    description: "Transfer 5,500 units of Bradford White 40-gal Water Heater to FRG-DC-TX01 DC to fill projected backorders",
+    description: "Transfer 5,500 units of Monster Energy Drink 16oz to 7EL-DC-TX01 DC to fill projected backorders",
     alertType: "Stock Shortage",
     transferLeadTime: "3-5 days",
     currentStock: 12450,
     projectedDemand: 18000,
   },
   {
-    sourceLocation: "FRG-DC-NC01",
-    materialCode: "FRG-HV-SEER15",
+    sourceLocation: "7EL-DC-NC01",
+    materialCode: "7EL-AL-6006",
     revenueImpact: 3306994,
     unitImpact: 459010,
     impactCoverage: 100.0,
@@ -35,15 +35,15 @@ const demandBalancingData = [
     predictedAction: "Expedite",
     actionPriority: "High",
     dueDate: "01/20/2025",
-    description: "Expedite existing stock transfer of Trane 15 SEER Condensing Units to FRG-DC-AZ01 DC",
+    description: "Expedite existing stock transfer of Corona Extra 6-Pack to 7EL-DC-AZ01 DC",
     alertType: "Critical Shortage",
     transferLeadTime: "7-10 days",
     currentStock: 8920,
     projectedDemand: 15200,
   },
   {
-    sourceLocation: "FRG-DC-TX01",
-    materialCode: "FRG-WH-TNKLS",
+    sourceLocation: "7EL-DC-TX01",
+    materialCode: "7EL-SN-9250",
     revenueImpact: 2999437,
     unitImpact: 139185,
     impactCoverage: 100.0,
@@ -51,15 +51,15 @@ const demandBalancingData = [
     predictedAction: "Transfer",
     actionPriority: "High",
     dueDate: "01/19/2025",
-    description: "Transfer A.O. Smith Tankless Units to FRG-DC-NC01 DC to fill projected backorders",
+    description: "Transfer Doritos Nacho Cheese 9.25oz to 7EL-DC-NC01 DC to fill projected backorders",
     alertType: "Stock Shortage",
     transferLeadTime: "2-4 days",
     currentStock: 2340,
     projectedDemand: 8500,
   },
   {
-    sourceLocation: "FRG-DC-VA01",
-    materialCode: "FRG-WH-TNKLS",
+    sourceLocation: "7EL-DC-VA01",
+    materialCode: "7EL-SN-9250",
     revenueImpact: 2029513,
     unitImpact: 96277,
     impactCoverage: 100.0,
@@ -67,15 +67,15 @@ const demandBalancingData = [
     predictedAction: "Transfer",
     actionPriority: "Medium",
     dueDate: "01/22/2025",
-    description: "Transfer A.O. Smith Tankless Units to FRG-DC-GA01 DC to fill projected backorders",
+    description: "Transfer Doritos Nacho Cheese 9.25oz to 7EL-DC-GA01 DC to fill projected backorders",
     alertType: "Low Stock",
     transferLeadTime: "5-7 days",
     currentStock: 1890,
     projectedDemand: 4200,
   },
   {
-    sourceLocation: "FRG-DC-AZ01",
-    materialCode: "FRG-WH-4050",
+    sourceLocation: "7EL-DC-AZ01",
+    materialCode: "7EL-EB-1600",
     revenueImpact: 1937593,
     unitImpact: 193480,
     impactCoverage: 100.0,
@@ -83,15 +83,15 @@ const demandBalancingData = [
     predictedAction: "Expedite",
     actionPriority: "High",
     dueDate: "01/21/2025",
-    description: "Expedite existing stock transfer of Bradford White 40-gal Water Heaters to FRG-DC-VA01 DC",
+    description: "Expedite existing stock transfer of Monster Energy Drink 16oz to 7EL-DC-VA01 DC",
     alertType: "Stock Shortage",
     transferLeadTime: "8-12 days",
     currentStock: 4560,
     projectedDemand: 9200,
   },
   {
-    sourceLocation: "FRG-DC-NC01",
-    materialCode: "FRG-WW-GV6",
+    sourceLocation: "7EL-DC-NC01",
+    materialCode: "7EL-BV-3200",
     revenueImpact: 1850740,
     unitImpact: 191730,
     impactCoverage: 100.0,
@@ -99,15 +99,15 @@ const demandBalancingData = [
     predictedAction: "Transfer",
     actionPriority: "Medium",
     dueDate: "01/25/2025",
-    description: "Transfer 6in Ductile Iron Gate Valves to FRG-DC-VA01 DC to fill projected backorders",
+    description: "Transfer Gatorade Fruit Punch 32oz to 7EL-DC-VA01 DC to fill projected backorders",
     alertType: "Optimal Stock",
     transferLeadTime: "6-8 days",
     currentStock: 3420,
     projectedDemand: 4500,
   },
   {
-    sourceLocation: "FRG-DC-AZ01",
-    materialCode: "FRG-HV-SEER15",
+    sourceLocation: "7EL-DC-AZ01",
+    materialCode: "7EL-AL-6006",
     revenueImpact: 1727740,
     unitImpact: 225300,
     impactCoverage: 100.0,
@@ -115,15 +115,15 @@ const demandBalancingData = [
     predictedAction: "Manufacture",
     actionPriority: "High",
     dueDate: "01/23/2025",
-    description: "Request expedited manufacturing of Trane 15 SEER Condensing Units to fill projected backorders",
+    description: "Request expedited manufacturing of Corona Extra 6-Pack to fill projected backorders",
     alertType: "Critical Shortage",
     transferLeadTime: "14-21 days",
     currentStock: 890,
     projectedDemand: 12000,
   },
   {
-    sourceLocation: "FRG-DC-TX01",
-    materialCode: "FRG-WH-4050",
+    sourceLocation: "7EL-DC-TX01",
+    materialCode: "7EL-EB-1600",
     revenueImpact: 1450534,
     unitImpact: 134558,
     impactCoverage: 100.0,
@@ -131,7 +131,7 @@ const demandBalancingData = [
     predictedAction: "Transfer",
     actionPriority: "Medium",
     dueDate: "01/24/2025",
-    description: "Transfer Bradford White 40-gal Water Heaters to FRG-DC-NC01 DC to fill projected backorders",
+    description: "Transfer Monster Energy Drink 16oz to 7EL-DC-NC01 DC to fill projected backorders",
     alertType: "Low Stock",
     transferLeadTime: "4-6 days",
     currentStock: 7240,
@@ -218,7 +218,7 @@ export default function MetaVRDemandBalancingTable() {
               Back to Supply Chain Control Tower  
             </Button>
           </Link>
-          <h1 className="mt-2 text-2xl font-bold">Ferguson Supply & Demand Balancing</h1>
+          <h1 className="mt-2 text-2xl font-bold">7-Eleven Supply & Demand Balancing</h1>
           <p className="text-muted-foreground">Monitor and manage inventory transfers and demand forecasting</p>
         </div>
         <div className="flex items-center gap-4">

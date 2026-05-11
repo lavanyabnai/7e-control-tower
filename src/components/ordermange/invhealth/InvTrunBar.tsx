@@ -27,9 +27,9 @@ import {
 } from '@heroicons/react/24/outline';
 import { useParams } from 'next/navigation';
 const chartData = [
-  { location: "Plumbing", time: 4.2 },
-  { location: "HVAC", time: 6.1 },
-  { location: "Waterworks", time: 5.3 },
+  { location: "Beverages", time: 4.2 },
+  { location: "Alcohol", time: 6.1 },
+  { location: "Tobacco", time: 5.3 },
 ];
 
 const chartConfig = {

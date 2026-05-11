@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "delivery": "Customer",
     "product": "Product A",
@@ -9,7 +9,7 @@
     "inculusionType": "Include"
   },
   {
-    "delivery": "Ferguson DC Dallas",
+    "delivery": "7-Eleven DC Dallas",
     "product": "Product A",
     "type": "closest(Dynamic Sourcing)",
     "parameter": "No parameters",
@@ -22,7 +22,7 @@
      "product": "Product A",
      "type": "closest(Dynamic Sourcing)",
      "parameter": "No parameters",
-     "sources": "Ferguson DC Dallas",
+     "sources": "7-Eleven DC Dallas",
      "timePeriod": "All periods",
      "inculusionType": "Include"
    }

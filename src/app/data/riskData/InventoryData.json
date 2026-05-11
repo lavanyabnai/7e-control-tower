@@ -1,7 +1,7 @@
-[
+﻿[
   {
-    "facility": "Ferguson DC Dallas",
-    "product": "Copper Pipe",
+    "facility": "7-Eleven DC Dallas",
+    "product": "Slurpee Frozen Drink 32oz",
     "policyType": "Order on demand",
     "parameters": "Order on demand",
     "initial": "0",
@@ -16,7 +16,7 @@
   },
   {
     "facility": "DC",
-    "product": "Copper Pipe",
+    "product": "Slurpee Frozen Drink 32oz",
     "policyType": "Min-max-policy",
     "parameters": "Order on demand",
     "initial": "0",
@@ -30,8 +30,8 @@
     "inclusionType": "Partial"
   },
     {
-      "facility": "Ferguson DC Dallas",
-      "product": "Copper Pipe",
+      "facility": "7-Eleven DC Dallas",
+      "product": "Slurpee Frozen Drink 32oz",
       "policyType": "Min-max-policy",
       "parameters": "Order on demand",
       "initial": "0",

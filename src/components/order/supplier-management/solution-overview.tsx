@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -21,49 +21,49 @@ export default function SolutionOverview({ onSubmit }: SolutionOverviewProps) {
 
   const supplierData = [
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "CHARLOTTE, NC",
       dc: "COLORADO",
       status: "Open",
       recommendedQuantity: 20,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "MONTGOMERY, AL",
       dc: "KANSAS CITY",
       status: "Open",
       recommendedQuantity: 122,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "MCMINNVILLE, TN",
       dc: "ILLINOIS",
       status: "Open",
       recommendedQuantity: 0,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "CHARLOTTE, NC",
-      dc: "FERGUSON DC PORTLAND",
+      dc: "7-Eleven DC PORTLAND",
       status: "Open",
       recommendedQuantity: 287,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "CHARLOTTE, NC",
       dc: "HAWAII",
       status: "Open",
       recommendedQuantity: 8,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "MONTGOMERY, AL",
       dc: "PELHAM",
       status: "Open",
       recommendedQuantity: 168,
     },
     {
-      name: "Charlotte Pipe & Foundry",
+      name: "PepsiCo Inc",
       shipFrom: "MCMINNVILLE, TN",
       dc: "KENTUCKY",
       status: "Open",
@@ -80,13 +80,13 @@ export default function SolutionOverview({ onSubmit }: SolutionOverviewProps) {
 
   const distributionActions = [
     "Ship 503 Pallets to Dayton, WI",
-    "Purchase 2821 Pallets of 1/2in PEX TUBING 100FT",
+    "Purchase 2821 Pallets of SLURPEE FROZEN DRINK 32OZ",
     "Ship 746 Pallets to Clovis, MO",
     "Ship 562 Pallets to Ashland City, TN",
     "Ship 354 Pallets to Ashland City, TN",
     "Ship 1237 Pallets to Albany, UT",
     "Ship 1228 Pallets to Albany, UT",
-    "Produce 2804 Pallets of 1/2in PEX TUBING 100FT",
+    "Produce 2804 Pallets of SLURPEE FROZEN DRINK 32OZ",
     "Ship 792 Pallets to Clovis, MO",
     "Ship 487 Pallets to Dayton, WI",
   ]

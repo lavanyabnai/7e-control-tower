@@ -1,6 +1,6 @@
-[
+﻿[
   {
-    "sources": "Ferguson DC Dallas",
+    "sources": "7-Eleven DC Dallas",
     "destination": "DC",
     "product": "(All products)",
     "vehicletype": "Truck",
@@ -12,7 +12,7 @@
   },
   {
     "sources": "Supplier",
-    "destination": "Ferguson DC Dallas",
+    "destination": "7-Eleven DC Dallas",
     "product": "(All products)",
     "vehicletype": "Truck",
     "type": "LTL",
@@ -22,7 +22,7 @@
     "time": "12:00 AM"
   },
   {
-    "sources": "Ferguson DC Atlanta",
+    "sources": "7-Eleven DC Atlanta",
     "destination": "Customer",
     "product": "(All products)",
     "vehicletype": "Truck",
@@ -33,7 +33,7 @@
     "time": "12:00 AM"
   },
   {
-    "sources": "Ferguson Branch Miami",
+    "sources": "7-Eleven Store Miami",
     "destination": "Customer",
     "product": "(All products)",
     "vehicletype": "Truck",

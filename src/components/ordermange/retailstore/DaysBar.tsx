@@ -25,23 +25,23 @@ import {
 
 
 const chartData = [
-  { Days: "45.3", name: "Plumbing", fill: "oklch(0.685 0.169 237.323)" },
-  { Days: "32.1", name: "HVAC", fill: "oklch(0.685 0.169 237.323)" },
-  { Days: "28.7", name: "Waterworks", fill: "oklch(0.685 0.169 237.323)" },
+  { Days: "45.3", name: "Beverages", fill: "oklch(0.685 0.169 237.323)" },
+  { Days: "32.1", name: "Alcohol", fill: "oklch(0.685 0.169 237.323)" },
+  { Days: "28.7", name: "Tobacco", fill: "oklch(0.685 0.169 237.323)" },
 ]
 
 const chartConfig = {
     name: {
     label: "name",
   },
-  Plumbing: {
-    label: "Plumbing",
+  Beverages: {
+    label: "Beverages",
   },
-  HVAC: {
-    label: "HVAC",
+  Alcohol: {
+    label: "Alcohol",
   },
-  Waterworks: { 
-    label: "Waterworks",
+  Tobacco: {
+    label: "Tobacco",
   },
 } satisfies ChartConfig
 

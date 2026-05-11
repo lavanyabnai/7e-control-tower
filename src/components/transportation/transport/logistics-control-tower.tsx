@@ -158,8 +158,8 @@ export default function LogisticsControlTower() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all-products">All Products</SelectItem>
-                    <SelectItem value="plumbing-pipe">Plumbing & Pipe</SelectItem>
-                    <SelectItem value="hvac-equipment">HVAC Equipment</SelectItem>
+                    <SelectItem value="beverages">Beverages</SelectItem>
+                    <SelectItem value="alcohol">Alcohol</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

@@ -3,14 +3,14 @@ import { BarChart3, Clock } from "lucide-react"
 
 const stats = [
   {
-    name: "Watts Water Technologies",
+    name: "Anheuser-Busch InBev",
     stat: "76% OTIF",
     sub: "14 Days Avg Lead Time",
     trend: "Declining",
     color: "text-red-500",
   },
   {
-    name: "Rheem Manufacturing",
+    name: "Coca-Cola Company",
     stat: "92% OTIF",
     sub: "18 Days Avg Lead Time",
     trend: "Stable",
@@ -28,7 +28,7 @@ export default function HistoryAnalysis() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="rounded-lg border p-4 shadow">
-          <h3 className="text-base font-semibold mb-2">Watts Backflow Preventer 2in - FRG-BF-2100</h3>
+          <h3 className="text-base font-semibold mb-2">Corona Extra 6-Pack - 7EL-AL-6006</h3>
           <p className="text-sm text-gray-500 mb-4">Last 6 Months Delivery Performance</p>
           <HistoryChart />
         </div>
@@ -55,7 +55,7 @@ export default function HistoryAnalysis() {
             <ul className="mt-2 space-y-2 text-sm">
               <li className="flex items-start">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-500 mt-1.5 mr-2"></span>
-                <span>Watts Water Technologies had 3 supply disruptions in the last 12 months</span>
+                <span>Anheuser-Busch InBev had 3 supply disruptions in the last 12 months</span>
               </li>
               <li className="flex items-start">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-500 mt-1.5 mr-2"></span>

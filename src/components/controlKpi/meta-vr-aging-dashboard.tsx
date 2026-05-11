@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 
@@ -76,14 +76,14 @@ interface InventoryKPI {
   unit?: string
 }
 
-// Ferguson Enterprises slow-moving inventory aging data
-const fergusonInventoryData: SlowMovingInventoryItem[] = [
+// 7-Eleven Inc slow-moving inventory aging data
+const sevenElevenInventoryData: SlowMovingInventoryItem[] = [
   {
-    id: "FRG-1001",
-    sku: "FRG-WH-4050",
-    description: "Bradford White 40-gal Water Heater (Discontinued Model)",
+    id: "7EL-1001",
+    sku: "7EL-EB-1600",
+    description: "Monster Energy Drink 16oz (Discontinued Flavor)",
     category: "Slow-Moving Inventory",
-    location: "Ferguson DC - Newport News, VA",
+    location: "7-Eleven DC - Irving, TX",
     quantity: 245,
     unitCost: 199.99,
     totalValue: 48997.55,
@@ -96,9 +96,9 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg1001-1",
-        type: "Contractor Clearance",
-        action: "Offer 25% discount to contractor accounts for discontinued water heater clearance",
-        impact: "Move 70% of inventory within 45 days before new efficiency model launch",
+        type: "Franchise Clearance",
+        action: "Offer 25% discount to franchise accounts for discontinued energy drink flavor clearance",
+        impact: "Move 70% of inventory within 45 days before new flavor launch",
         priority: "high",
         potentialSavings: 12249.39,
         timeframe: "30-45 days",
@@ -106,8 +106,8 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
       {
         id: "rec-frg1001-2",
         type: "Bundle Strategy",
-        action: "Create water heater install kits bundled with expansion tanks and connectors",
-        impact: "Increase perceived value while clearing aging water heater inventory",
+        action: "Create energy drink bundles with snacks and promotional packaging",
+        impact: "Increase perceived value while clearing aging beverage inventory",
         priority: "high",
         potentialSavings: 9799.51,
         timeframe: "60 days",
@@ -141,11 +141,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "high",
   },
   {
-    id: "FRG-1002",
-    sku: "FRG-WH-4050-LP",
-    description: "Bradford White 40-gal Water Heater LP (Discontinued Model)",
+    id: "7EL-1002",
+    sku: "7EL-SL-3200",
+    description: "Slurpee Frozen Drink 32oz (Discontinued Flavor)",
     category: "Slow-Moving Inventory",
-    location: "Ferguson DC - Mocksville, NC",
+    location: "7-Eleven DC - Memphis, TN",
     quantity: 156,
     unitCost: 299.99,
     totalValue: 46798.44,
@@ -158,9 +158,9 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg1002-1",
-        type: "Rural Market Push",
-        action: "Target LP water heater demand in rural and off-grid contractor territories",
-        impact: "Position as value option for LP-dependent markets",
+        type: "Regional Market Push",
+        action: "Target slower-moving franchise locations with promotional pricing and end caps",
+        impact: "Position as value option for price-sensitive regional markets",
         priority: "high",
         potentialSavings: 9359.69,
         timeframe: "45 days",
@@ -185,11 +185,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "high",
   },
   {
-    id: "FRG-1003",
-    sku: "FRG-HV-SEER13",
-    description: "13 SEER AC Condensing Unit 3-Ton (Being Replaced by 15 SEER Min)",
+    id: "7EL-1003",
+    sku: "7EL-HV-SEER13",
+    description: "Corona Extra 6-Pack (Slow-Moving SKU)",
     category: "Slow-Moving Inventory",
-    location: "Ferguson DC - Newport News, VA",
+    location: "7-Eleven DC - Irving, TX",
     quantity: 89,
     unitCost: 399.99,
     totalValue: 35599.11,
@@ -201,17 +201,17 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg1003-1",
-        type: "Regulatory Deadline Push",
-        action: "Promote 13 SEER units to contractors before DOE minimum efficiency change takes effect",
-        impact: "Leverage remaining installation window to move current inventory",
+        type: "Seasonal Promotion Push",
+        action: "Promote slow-moving beer SKUs with summer promotional pricing and displays",
+        impact: "Leverage peak summer season to move current inventory",
         priority: "medium",
         timeframe: "30 days",
       },
       {
         id: "rec-frg1003-2",
-        type: "Replacement Market Bundle",
-        action: "Create HVAC install kits bundled with line sets, thermostats, and pads",
-        impact: "Increase value proposition for replacement-market contractors",
+        type: "Bundle Promotion",
+        action: "Create alcohol bundle promotions with snacks and loyalty rewards",
+        impact: "Increase value proposition and attach rate for slow-moving alcohol inventory",
         priority: "medium",
         timeframe: "45 days",
       },
@@ -227,11 +227,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "medium",
   },
   {
-    id: "FRG-1004",
-    sku: "FRG-HV-SEER13-5T",
-    description: "13 SEER AC Condensing Unit 5-Ton (Being Replaced by 15 SEER Min)",
+    id: "7EL-1004",
+    sku: "7EL-HV-SEER13-5T",
+    description: "Gatorade Fruit Punch 32oz (Slow-Moving Flavor)",
     category: "Slow-Moving Inventory",
-    location: "Ferguson DC - Dallas, TX",
+    location: "7-Eleven DC - Dallas, TX",
     quantity: 67,
     unitCost: 499.99,
     totalValue: 33499.33,
@@ -243,9 +243,9 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg1004-1",
-        type: "Commercial HVAC Push",
-        action: "Target commercial contractors and light commercial projects needing budget HVAC",
-        impact: "Target cost-sensitive commercial customer segments",
+        type: "Franchise Promotion Push",
+        action: "Target high-traffic franchise locations with promotional endcap displays",
+        impact: "Target high-volume convenience store locations to accelerate sell-through",
         priority: "medium",
         timeframe: "60 days",
       },
@@ -269,11 +269,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "low",
   },
   {
-    id: "FRG-1005",
-    sku: "FRG-PV-2040",
-    description: "2in PVC Sch.40 Union - Slow Moving",
+    id: "7EL-1005",
+    sku: "7EL-PV-2040",
+    description: "Doritos Nacho Cheese 9.25oz (Slow-Moving Flavor)",
     category: "Slow-Moving Inventory",
-    location: "Ferguson DC - Newport News, VA",
+    location: "7-Eleven DC - Irving, TX",
     quantity: 34,
     unitCost: 999.99,
     totalValue: 33999.66,
@@ -285,27 +285,27 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg1005-1",
-        type: "Branch Redistribution",
-        action: "Redistribute to branches with higher plumbing repair demand in older housing markets",
-        impact: "Target branches serving aging infrastructure areas with higher fitting demand",
+        type: "Store Redistribution",
+        action: "Redistribute to franchise locations with higher snack demand near college campuses",
+        impact: "Target high-traffic locations with stronger snack category demand",
         priority: "high",
         potentialSavings: 10199.9,
         timeframe: "90 days",
       },
       {
         id: "rec-frg1005-2",
-        type: "Contractor Discount",
-        action: "Apply 40% discount for contractor account bulk purchases",
-        impact: "Aggressive pricing to clear slow-moving fitting inventory",
+        type: "Franchise Discount",
+        action: "Apply 40% discount for franchise account bulk purchases",
+        impact: "Aggressive pricing to clear slow-moving snack inventory",
         priority: "high",
         potentialSavings: 13599.86,
         timeframe: "60 days",
       },
       {
         id: "rec-frg1005-3",
-        type: "Municipal Projects",
-        action: "Offer to municipal water/sewer departments for maintenance stock",
-        impact: "Move inventory to government accounts with steady demand",
+        type: "Corporate Accounts",
+        action: "Offer to corporate franchise groups for multi-location bulk purchases",
+        impact: "Move inventory to large franchise groups with steady demand",
         priority: "medium",
         timeframe: "120 days",
       },
@@ -321,11 +321,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "high",
   },
   {
-    id: "FRG-2001",
-    sku: "FRG-FIT-CU34",
-    description: "3/4in Copper Press Fitting Tee - Overstock",
-    category: "Plumbing Fittings",
-    location: "Ferguson DC - Newport News, VA",
+    id: "7EL-2001",
+    sku: "7EL-FIT-CU34",
+    description: "Tylenol Extra Strength 24ct - Overstock",
+    category: "Health & Beauty",
+    location: "7-Eleven DC - Irving, TX",
     quantity: 312,
     unitCost: 49.99,
     totalValue: 15596.88,
@@ -338,16 +338,16 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
       {
         id: "rec-frg2001-1",
         type: "Bundle Inclusion",
-        action: "Include in plumbing rough-in kits for new construction projects",
-        impact: "Move fitting inventory while enhancing project kit value proposition",
+        action: "Include in health & wellness product bundles for franchise promotion kits",
+        impact: "Move overstock inventory while enhancing promotional kit value",
         priority: "high",
         timeframe: "45 days",
       },
       {
         id: "rec-frg2001-2",
         type: "Counter Sales Push",
-        action: "Feature at branch counter displays with promotional pricing for walk-in contractors",
-        impact: "Target walk-in contractor traffic for accessory sales",
+        action: "Feature at store checkout counter displays with promotional pricing for walk-in customers",
+        impact: "Target walk-in customer traffic for impulse health & beauty purchases",
         priority: "medium",
         timeframe: "60 days",
       },
@@ -362,11 +362,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "low",
   },
   {
-    id: "FRG-2002",
-    sku: "FRG-VLV-PRV34",
-    description: "3/4in Pressure Reducing Valve - Watts LF25AUB",
-    category: "Plumbing Valves",
-    location: "Ferguson DC - Mocksville, NC",
+    id: "7EL-2002",
+    sku: "7EL-VLV-PRV34",
+    description: "Big Bite Hot Dog - Slow Moving SKU",
+    category: "Fresh Food",
+    location: "7-Eleven DC - Memphis, TN",
     quantity: 189,
     unitCost: 79.99,
     totalValue: 15118.11,
@@ -378,17 +378,17 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg2002-1",
-        type: "Code Compliance Kit",
-        action: "Bundle PRV with expansion tanks for code-compliant water heater install kits",
-        impact: "Target contractors needing code-compliant install packages",
+        type: "Meal Deal Bundle",
+        action: "Bundle hot dogs with drinks and chips for meal deal promotions",
+        impact: "Target lunch and dinner traffic with bundled meal deal value propositions",
         priority: "medium",
         timeframe: "60 days",
       },
       {
         id: "rec-frg2002-2",
-        type: "Municipal/Commercial",
-        action: "Market to commercial plumbing contractors for building maintenance",
-        impact: "Position for commercial building valve replacement projects",
+        type: "Catering/Event Push",
+        action: "Market to catering accounts and event venues for bulk hot dog orders",
+        impact: "Position fresh food items for bulk catering and event channel",
         priority: "low",
         timeframe: "90 days",
       },
@@ -403,11 +403,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "medium",
   },
   {
-    id: "FRG-2003",
-    sku: "FRG-FP-SPRNK12",
-    description: "1/2in Fire Sprinkler Head - Residential Pendent",
-    category: "Fire Protection",
-    location: "Ferguson DC - Dallas, TX",
+    id: "7EL-2003",
+    sku: "7EL-FP-SPRNK12",
+    description: "Marlboro Gold 20pk - Regional Slow Mover",
+    category: "Tobacco",
+    location: "7-Eleven DC - Dallas, TX",
     quantity: 267,
     unitCost: 39.99,
     totalValue: 10677.33,
@@ -419,17 +419,17 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg2003-1",
-        type: "Fire Protection Bundle",
-        action: "Create fire sprinkler kits for residential new-construction projects",
-        impact: "Target builders and fire protection contractors with bundled solutions",
+        type: "Tobacco Bundle Promotion",
+        action: "Create tobacco bundle promotions with lighter accessories and loyalty points",
+        impact: "Target regular smokers with bundled loyalty reward promotions",
         priority: "medium",
         timeframe: "45 days",
       },
       {
         id: "rec-frg2003-2",
-        type: "Retrofit Market",
-        action: "Promote to fire protection contractors serving retrofit and remodel markets",
-        impact: "Move inventory through retrofit channel with growing code adoption",
+        type: "Regional Pricing",
+        action: "Apply region-specific promotional pricing in markets with slower tobacco movement",
+        impact: "Move inventory through optimized pricing by region",
         priority: "low",
         timeframe: "60 days",
       },
@@ -444,11 +444,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "low",
   },
   {
-    id: "FRG-3001",
-    sku: "FRG-WW-GV6",
-    description: "6in Ductile Iron Gate Valve - Waterworks",
-    category: "Waterworks",
-    location: "Ferguson DC - Newport News, VA",
+    id: "7EL-3001",
+    sku: "7EL-WW-GV6",
+    description: "Gatorade Grape 32oz - Regional Slow Mover",
+    category: "Beverages",
+    location: "7-Eleven DC - Irving, TX",
     quantity: 78,
     unitCost: 129.99,
     totalValue: 10139.22,
@@ -460,17 +460,17 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     recommendations: [
       {
         id: "rec-frg3001-1",
-        type: "Municipal Sales",
-        action: "Target municipal water departments for infrastructure replacement programs",
-        impact: "Serve municipal replacement and upgrade market",
+        type: "Sports Event Push",
+        action: "Target sports venue and event accounts with promotional Gatorade placement",
+        impact: "Serve high-traffic sporting event and outdoor recreation markets",
         priority: "medium",
         timeframe: "60 days",
       },
       {
         id: "rec-frg3001-2",
-        type: "Utility Contractor Push",
-        action: "Promote to utility contractors with active waterworks projects",
-        impact: "Move inventory through active project pipeline",
+        type: "Regional Distributor Push",
+        action: "Promote slow-moving beverage flavor to regional distribution partners",
+        impact: "Move inventory through regional distributor channels",
         priority: "low",
         timeframe: "90 days",
       },
@@ -485,11 +485,11 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
     techObsolescenceRisk: "low",
   },
   {
-    id: "FRG-4001",
-    sku: "FRG-HV-FILTER-BULK",
-    description: "HVAC Air Filter Multi-Pack (16x25x1) - Bulk Overstock",
-    category: "HVAC Supplies",
-    location: "Ferguson DC - Dallas, TX",
+    id: "7EL-4001",
+    sku: "7EL-HV-FILTER-BULK",
+    description: "Pepsi Cola 20oz Bottle Multi-Pack - Bulk Overstock",
+    category: "Beverages",
+    location: "7-Eleven DC - Dallas, TX",
     quantity: 1500,
     unitCost: 29.99,
     totalValue: 44985.0,
@@ -502,16 +502,16 @@ const fergusonInventoryData: SlowMovingInventoryItem[] = [
       {
         id: "rec-frg4001-1",
         type: "Seasonal Push",
-        action: "Promote bulk filter packs to HVAC contractors ahead of cooling season",
-        impact: "Increase filter sales tied to seasonal HVAC maintenance demand",
+        action: "Promote bulk beverage packs to franchise accounts ahead of summer season",
+        impact: "Increase beverage sales tied to seasonal summer demand",
         priority: "high",
         timeframe: "30 days",
       },
       {
         id: "rec-frg4001-2",
-        type: "Property Management",
-        action: "Offer bulk filter discount to property management companies for maintenance cycles",
-        impact: "Move overstock through recurring maintenance channel",
+        type: "Corporate Account Discount",
+        action: "Offer bulk beverage discount to corporate franchise groups for recurring orders",
+        impact: "Move overstock through recurring franchise replenishment channel",
         priority: "medium",
         timeframe: "45 days",
       },
@@ -683,7 +683,7 @@ export default function MetaVRAgingDashboard() {
   }
 
   // Filter and sort data
-  const filteredAndSortedData = [...fergusonInventoryData]
+  const filteredAndSortedData = [...sevenElevenInventoryData]
     .filter((item) => {
       const matchesSearch =
         item.sku.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -724,7 +724,7 @@ export default function MetaVRAgingDashboard() {
   const highTechRiskItems = filteredAndSortedData.filter((item) => item.techObsolescenceRisk === "high").length
 
   // Get unique categories for filter
-  const categories = Array.from(new Set(fergusonInventoryData.map((item) => item.category)))
+  const categories = Array.from(new Set(sevenElevenInventoryData.map((item) => item.category)))
 
   return (
     <div className="w-full space-y-4">
@@ -733,7 +733,7 @@ export default function MetaVRAgingDashboard() {
         <CardHeader>
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
             <div>
-              <CardTitle className="text-2xl font-bold">Ferguson Slow-Moving Inventory Aging Dashboard</CardTitle>
+              <CardTitle className="text-2xl font-bold">7-Eleven Slow-Moving Inventory Aging Dashboard</CardTitle>
               <CardDescription>
                 Wholesale distribution products with aging alerts and obsolescence tracking
               </CardDescription>

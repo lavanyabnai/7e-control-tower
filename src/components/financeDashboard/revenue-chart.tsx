@@ -6,33 +6,33 @@ import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/
 const data = [
   {
     quarter: "Q1 2023",
-    PlumbingPipe: 3.8,
-    HVACEquip: 2.1,
-    WaterworksFP: 1.2,
+    Beverages: 3.8,
+    Alcohol: 2.1,
+    Tobacco: 1.2,
   },
   {
     quarter: "Q2 2023",
-    PlumbingPipe: 4.0,
-    HVACEquip: 2.3,
-    WaterworksFP: 1.3,
+    Beverages: 4.0,
+    Alcohol: 2.3,
+    Tobacco: 1.3,
   },
   {
     quarter: "Q3 2023",
-    PlumbingPipe: 4.2,
-    HVACEquip: 2.4,
-    WaterworksFP: 1.4,
+    Beverages: 4.2,
+    Alcohol: 2.4,
+    Tobacco: 1.4,
   },
   {
     quarter: "Q4 2023",
-    PlumbingPipe: 4.5,
-    HVACEquip: 2.6,
-    WaterworksFP: 1.5,
+    Beverages: 4.5,
+    Alcohol: 2.6,
+    Tobacco: 1.5,
   },
   {
     quarter: "Q1 2024",
-    PlumbingPipe: 4.7,
-    HVACEquip: 2.7,
-    WaterworksFP: 1.6,
+    Beverages: 4.7,
+    Alcohol: 2.7,
+    Tobacco: 1.6,
   },
 ]
 
@@ -40,16 +40,16 @@ export function RevenueChart() {
   return (
     <ChartContainer
       config={{
-        PlumbingPipe: {
-          label: "Plumbing & Pipe",
+        Beverages: {
+          label: "Beverages",
           color: "hsl(var(--chart-1))",
         },
-        HVACEquip: {
-          label: "HVAC Equipment",
+        Alcohol: {
+          label: "Alcohol",
           color: "hsl(var(--chart-2))",
         },
-        WaterworksFP: {
-          label: "Waterworks & Fire Protection",
+        Tobacco: {
+          label: "Tobacco",
           color: "hsl(var(--chart-3))",
         },
       }}
@@ -71,9 +71,9 @@ export function RevenueChart() {
           <YAxis label={{ value: "Revenue ($B)", angle: -90, position: "insideLeft" }} />
           <ChartTooltip content={<ChartTooltipContent />} />
           <Legend />
-          <Bar dataKey="PlumbingPipe" stackId="a" fill="var(--color-PlumbingPipe)" />
-          <Bar dataKey="HVACEquip" stackId="a" fill="var(--color-HVACEquip)" />
-          <Bar dataKey="WaterworksFP" stackId="a" fill="var(--color-WaterworksFP)" />
+          <Bar dataKey="Beverages" stackId="a" fill="var(--color-Beverages)" />
+          <Bar dataKey="Alcohol" stackId="a" fill="var(--color-Alcohol)" />
+          <Bar dataKey="Tobacco" stackId="a" fill="var(--color-Tobacco)" />
         </BarChart>
       </ResponsiveContainer>
     </ChartContainer>

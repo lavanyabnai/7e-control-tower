@@ -1,7 +1,7 @@
-[
+﻿[
   {
     "customer": "Dallas",
-    "product": "Copper Pipe",
+    "product": "Monster Energy Drink 16oz",
     "demandType": "Periodic demand",
     "orderInterval": "6 days",
     "quantity": 551,
@@ -16,7 +16,7 @@
   },
   {
     "customer": "Atlanta",
-    "product": "PVC Fittings",
+    "product": "Slurpee Frozen Drink 32oz",
     "demandType": "Constant demand",
     "orderInterval": "12 days",
     "quantity": 320,
@@ -31,7 +31,7 @@
   },
   {
     "customer": "Houston",
-    "product": "Water Heaters",
+    "product": "Coca-Cola Classic 20oz Bottle",
     "demandType": "Periodic demand",
     "orderInterval": "5 days",
     "quantity": 420,
@@ -46,7 +46,7 @@
   },
   {
     "customer": "Phoenix",
-    "product": "HVAC Units",
+    "product": "Corona Extra 6-Pack",
     "demandType": "Periodic demand",
     "orderInterval": "10 days",
     "quantity": 600,
@@ -61,7 +61,7 @@
   },
   {
     "customer": "Philadelphia",
-    "product": "Fire Sprinklers",
+    "product": "Doritos Nacho Cheese 9.25oz",
     "demandType": "Constant demand",
     "orderInterval": "15 days",
     "quantity": 700,
@@ -76,7 +76,7 @@
   },
   {
     "customer": "San Antonio",
-    "product": "Pipe Insulation",
+    "product": "Gatorade Fruit Punch 32oz",
     "demandType": "Periodic demand",
     "orderInterval": "8 days",
     "quantity": 350,
@@ -91,7 +91,7 @@
   },
   {
     "customer": "San Diego",
-    "product": "Brass Valves",
+    "product": "Red Bull Energy Drink 8.4oz",
     "demandType": "Periodic demand",
     "orderInterval": "4 days",
     "quantity": 450,
@@ -106,7 +106,7 @@
   },
   {
     "customer": "Jacksonville",
-    "product": "Shower Fixtures",
+    "product": "Big Bite Hot Dog",
     "demandType": "Constant demand",
     "orderInterval": "7 days",
     "quantity": 380,
@@ -121,7 +121,7 @@
   },
   {
     "customer": "Columbus",
-    "product": "Toilet Kits",
+    "product": "Reese's Peanut Butter Cups",
     "demandType": "Periodic demand",
     "orderInterval": "3 days",
     "quantity": 250,
@@ -136,7 +136,7 @@
   },
   {
     "customer": "Charlotte",
-    "product": "Ductwork",
+    "product": "Marlboro Red 20pk",
     "demandType": "Periodic demand",
     "orderInterval": "9 days",
     "quantity": 500,
@@ -151,7 +151,7 @@
   },
   {
     "customer": "Indianapolis",
-    "product": "Water Pumps",
+    "product": "Pepsi Cola 20oz Bottle",
     "demandType": "Constant demand",
     "orderInterval": "11 days",
     "quantity": 470,
@@ -166,7 +166,7 @@
   },
   {
     "customer": "Denver",
-    "product": "Sump Pumps",
+    "product": "Mountain Dew 20oz Bottle",
     "demandType": "Periodic demand",
     "orderInterval": "6 days",
     "quantity": 620,
@@ -181,7 +181,7 @@
   },
   {
     "customer": "Seattle",
-    "product": "Thermostats",
+    "product": "Arizona Iced Tea 23oz Can",
     "demandType": "Periodic demand",
     "orderInterval": "5 days",
     "quantity": 410,
@@ -196,7 +196,7 @@
   },
   {
     "customer": "Nashville",
-    "product": "Fire Hydrants",
+    "product": "Marlboro Gold 20pk",
     "demandType": "Constant demand",
     "orderInterval": "10 days",
     "quantity": 540,
@@ -211,7 +211,7 @@
   },
   {
     "customer": "Portland",
-    "product": "Waterworks Valves",
+    "product": "Bud Light Beer 6-Pack",
     "demandType": "Periodic demand",
     "orderInterval": "12 days",
     "quantity": 300,
@@ -226,7 +226,7 @@
   },
   {
     "customer": "Las Vegas",
-    "product": "Galvanized Pipe",
+    "product": "Tropicana Orange Juice 12oz",
     "demandType": "Periodic demand",
     "orderInterval": "7 days",
     "quantity": 260,
@@ -241,7 +241,7 @@
   },
   {
     "customer": "Baltimore",
-    "product": "Drain Assemblies",
+    "product": "Lay's Classic Potato Chips 8oz",
     "demandType": "Constant demand",
     "orderInterval": "14 days",
     "quantity": 470,
@@ -256,7 +256,7 @@
   },
   {
     "customer": "Milwaukee",
-    "product": "Backflow Preventers",
+    "product": "Tylenol Extra Strength 24ct",
     "demandType": "Periodic demand",
     "orderInterval": "8 days",
     "quantity": 530,
@@ -271,7 +271,7 @@
   },
   {
     "customer": "Tucson",
-    "product": "Expansion Tanks",
+    "product": "Snickers Bar King Size",
     "demandType": "Periodic demand",
     "orderInterval": "9 days",
     "quantity": 350,
@@ -286,7 +286,7 @@
   },
   {
     "customer": "Sacramento",
-    "product": "Air Handlers",
+    "product": "Starbucks Frappuccino 13.7oz",
     "demandType": "Constant demand",
     "orderInterval": "11 days",
     "quantity": 400,
@@ -301,7 +301,7 @@
   },
   {
     "customer": "Kansas City",
-    "product": "Refrigerant Lines",
+    "product": "5-Hour Energy Shot 1.93oz",
     "demandType": "Periodic demand",
     "orderInterval": "4 days",
     "quantity": 290,
@@ -316,7 +316,7 @@
   },
   {
     "customer": "Omaha",
-    "product": "Sprinkler Heads",
+    "product": "Cheetos Crunchy 8.5oz",
     "demandType": "Periodic demand",
     "orderInterval": "6 days",
     "quantity": 460,
@@ -331,7 +331,7 @@
   },
   {
     "customer": "Minneapolis",
-    "product": "Pressure Gauges",
+    "product": "Oreo Chocolate Cookies 3oz",
     "demandType": "Constant demand",
     "orderInterval": "13 days",
     "quantity": 250,
@@ -346,7 +346,7 @@
   },
   {
     "customer": "Tampa",
-    "product": "Faucet Sets",
+    "product": "M&M Peanut Chocolate 3.27oz",
     "demandType": "Periodic demand",
     "orderInterval": "5 days",
     "quantity": 550,
@@ -361,7 +361,7 @@
   },
   {
     "customer": "Raleigh",
-    "product": "Water Pumps",
+    "product": "Pepsi Cola 20oz Bottle",
     "demandType": "Constant demand",
     "orderInterval": "11 days",
     "quantity": 340,
@@ -376,7 +376,7 @@
   },
   {
     "customer": "Memphis",
-    "product": "HVAC Units",
+    "product": "Corona Extra 6-Pack",
     "demandType": "Periodic demand",
     "orderInterval": "10 days",
     "quantity": 480,
@@ -391,7 +391,7 @@
   },
   {
     "customer": "Louisville",
-    "product": "Sump Pumps",
+    "product": "Mountain Dew 20oz Bottle",
     "demandType": "Constant demand",
     "orderInterval": "9 days",
     "quantity": 360,
@@ -406,7 +406,7 @@
   },
   {
     "customer": "Richmond",
-    "product": "Thermostats",
+    "product": "Arizona Iced Tea 23oz Can",
     "demandType": "Periodic demand",
     "orderInterval": "7 days",
     "quantity": 420,
@@ -421,7 +421,7 @@
   },
   {
     "customer": "Oklahoma City",
-    "product": "Drain Assemblies",
+    "product": "Lay's Classic Potato Chips 8oz",
     "demandType": "Periodic demand",
     "orderInterval": "8 days",
     "quantity": 310,
@@ -436,7 +436,7 @@
   },
   {
     "customer": "Hartford",
-    "product": "Waterworks Valves",
+    "product": "Bud Light Beer 6-Pack",
     "demandType": "Constant demand",
     "orderInterval": "12 days",
     "quantity": 400,
@@ -451,7 +451,7 @@
   },
   {
     "customer": "Salt Lake City",
-    "product": "Shower Fixtures",
+    "product": "Big Bite Hot Dog",
     "demandType": "Periodic demand",
     "orderInterval": "6 days",
     "quantity": 270,
@@ -466,7 +466,7 @@
   },
   {
     "customer": "Birmingham",
-    "product": "Toilet Kits",
+    "product": "Reese's Peanut Butter Cups",
     "demandType": "Periodic demand",
     "orderInterval": "4 days",
     "quantity": 240,
@@ -481,7 +481,7 @@
   },
   {
     "customer": "Boise",
-    "product": "Fire Hydrants",
+    "product": "Marlboro Gold 20pk",
     "demandType": "Constant demand",
     "orderInterval": "10 days",
     "quantity": 390,
@@ -496,7 +496,7 @@
   },
   {
     "customer": "Des Moines",
-    "product": "Galvanized Pipe",
+    "product": "Tropicana Orange Juice 12oz",
     "demandType": "Periodic demand",
     "orderInterval": "5 days",
     "quantity": 520,
@@ -511,7 +511,7 @@
   },
   {
     "customer": "Albuquerque",
-    "product": "Refrigerant Lines",
+    "product": "5-Hour Energy Shot 1.93oz",
     "demandType": "Constant demand",
     "orderInterval": "9 days",
     "quantity": 350,
@@ -526,7 +526,7 @@
   },
   {
     "customer": "Knoxville",
-    "product": "Expansion Tanks",
+    "product": "Snickers Bar King Size",
     "demandType": "Periodic demand",
     "orderInterval": "6 days",
     "quantity": 470,
@@ -541,7 +541,7 @@
   },
   {
     "customer": "Fresno",
-    "product": "Air Handlers",
+    "product": "Starbucks Frappuccino 13.7oz",
     "demandType": "Periodic demand",
     "orderInterval": "7 days",
     "quantity": 440,
@@ -556,7 +556,7 @@
   },
   {
     "customer": "Tulsa",
-    "product": "Fire Sprinklers",
+    "product": "Doritos Nacho Cheese 9.25oz",
     "demandType": "Constant demand",
     "orderInterval": "13 days",
     "quantity": 520,

@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -25,14 +25,14 @@ export default function ProductionTimeline() {
             Total Time from Raw Material Order to Distributed Product: 2 Weeks
           </Badge>
         </div>
-        <p className="text-xs text-gray-500 mt-1">Ferguson Item: 1/2in PEX TUBING 100FT (FRG-PX-4410)</p>
+        <p className="text-xs text-gray-500 mt-1">7-Eleven Item: SLURPEE FROZEN DRINK 32OZ (7EL-SL-3200)</p>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="grid grid-cols-2 gap-6">
           <div className="space-y-3">
             <div className="flex items-center">
               <span className="text-sm font-medium w-32">Name:</span>
-              <span className="text-sm">PEX Tubing 1/2in 100ft Coil</span>
+              <span className="text-sm">Slurpee Frozen Drink 32oz</span>
             </div>
             <div className="flex items-center">
               <span className="text-sm font-medium w-32">Due Date Order Raw Supplies:</span>

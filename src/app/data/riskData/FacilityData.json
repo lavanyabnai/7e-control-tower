@@ -1,6 +1,6 @@
-[
+﻿[
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "expenseType": "Carrying Cost",
     "value": 0.005,
     "currency": "USD",
@@ -9,7 +9,7 @@
     "timePeriod": "(All Periods)"
   },
   {
-    "facility": "Ferguson DC Dallas",
+    "facility": "7-Eleven DC Dallas",
     "expenseType": "Other Costs",
     "value": 2630,
     "currency": "USD",
@@ -18,7 +18,7 @@
     "timePeriod": "(All Periods)"
   },
   {
-    "facility": "Ferguson Branch Miami",
+    "facility": "7-Eleven Store Miami",
     "expenseType": "Other Costs",
     "value": 70,
     "currency": "USD",
@@ -27,7 +27,7 @@
     "timePeriod": "(All Periods)"
   },
   {
-    "facility": "Ferguson DC Atlanta",
+    "facility": "7-Eleven DC Atlanta",
     "expenseType": "Other Costs",
     "value": 100,
     "currency": "USD",
@@ -36,21 +36,21 @@
     "timePeriod": "(All Periods)"
   },
   {
-    "facility": "Ferguson DC Atlanta",
+    "facility": "7-Eleven DC Atlanta",
     "expenseType": "Carrying Cost",
     "value": 0.2,
     "currency": "USD",
     "timeUnit": "day",
-    "productUnit": "Copper Pipe Pallets",
+    "productUnit": "Beverage Cases",
     "timePeriod": "(All Periods)"
   },
   {
-    "facility": "Ferguson Branch Miami",
+    "facility": "7-Eleven Store Miami",
     "expenseType": "Carrying Cost",
     "value": 0.1,
     "currency": "USD",
     "timeUnit": "day",
-    "productUnit": "Copper Pipe Pallets",
+    "productUnit": "Beverage Cases",
     "timePeriod": "(All Periods)"
   }
 ]

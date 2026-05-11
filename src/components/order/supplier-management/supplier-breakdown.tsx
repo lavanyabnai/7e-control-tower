@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
@@ -8,31 +8,31 @@ import { MoreHorizontal, Edit, Trash2 } from "lucide-react"
 export default function SupplierBreakdown() {
   const supplierData = [
     {
-      supplierName: "Charlotte Pipe & Foundry",
+      supplierName: "PepsiCo Inc",
       shipFrom: "CHARLOTTE, NC",
       dcs: [
-        { name: "FERGUSON DC PHOENIX", cases: -37, cost: -1289, recommended: 0 },
-        { name: "FERGUSON DC DENVER", cases: 0, cost: 0, recommended: 0 },
-        { name: "FERGUSON BRANCH RICHMOND", cases: 0, cost: 0, recommended: 0 },
-        { name: "FERGUSON DC BOISE", cases: 0, cost: 0, recommended: 0 },
-        { name: "FERGUSON BRANCH BILLINGS", cases: 0, cost: 0, recommended: 0 },
-        { name: "FERGUSON DC PORTLAND", cases: -110, cost: -3834, recommended: 0 },
-        { name: "FERGUSON DC SACRAMENTO", cases: 0, cost: 0, recommended: 0 },
-        { name: "FERGUSON BRANCH SALT LAKE", cases: -199, cost: -6935, recommended: 0 },
+        { name: "7-Eleven DC PHOENIX", cases: -37, cost: -1289, recommended: 0 },
+        { name: "7-Eleven DC DENVER", cases: 0, cost: 0, recommended: 0 },
+        { name: "7-Eleven Store RICHMOND", cases: 0, cost: 0, recommended: 0 },
+        { name: "7-Eleven DC BOISE", cases: 0, cost: 0, recommended: 0 },
+        { name: "7-Eleven Store BILLINGS", cases: 0, cost: 0, recommended: 0 },
+        { name: "7-Eleven DC PORTLAND", cases: -110, cost: -3834, recommended: 0 },
+        { name: "7-Eleven DC SACRAMENTO", cases: 0, cost: 0, recommended: 0 },
+        { name: "7-Eleven Store SALT LAKE", cases: -199, cost: -6935, recommended: 0 },
       ],
     },
     {
-      supplierName: "Charlotte Pipe & Foundry",
+      supplierName: "PepsiCo Inc",
       shipFrom: "MONTGOMERY, AL",
       dcs: [{ name: "", cases: -2048, cost: -66792, recommended: 0 }],
     },
     {
-      supplierName: "Charlotte Pipe & Foundry",
+      supplierName: "PepsiCo Inc",
       shipFrom: "MCMINNVILLE, TN",
       dcs: [{ name: "", cases: -3940, cost: -127503, recommended: 0 }],
     },
     {
-      supplierName: "Charlotte Pipe & Foundry",
+      supplierName: "PepsiCo Inc",
       shipFrom: "ASHLAND CITY, TN",
       dcs: [{ name: "", cases: -438, cost: -14110, recommended: 0 }],
     },

@@ -15,7 +15,7 @@ export default function SupplierInfo() {
         <div className="space-y-4">
           <div className="flex justify-between items-start">
             <div>
-              <h3 className="text-lg font-semibold">Watts Water Technologies Inc.</h3>
+              <h3 className="text-lg font-semibold">Anheuser-Busch InBev Inc.</h3>
               <div className="flex items-center text-sm text-gray-500 mt-1">
                 <MapPin className="h-4 w-4 mr-1" />
                 <span>Dallas, TX</span>
@@ -93,7 +93,7 @@ export default function SupplierInfo() {
           <div className="border rounded-md p-3 mt-4">
             <div className="text-sm font-medium">Capacity Issue Details</div>
             <p className="text-sm text-gray-600 mt-1">
-              Supplier has reported equipment failure affecting 40% of manufacturing capacity for backflow preventers. Estimated recovery time is
+              Supplier has reported equipment failure affecting 40% of brewing and bottling capacity for alcohol products. Estimated recovery time is
               14-21 days. Currently operating at reduced capacity and prioritizing existing distributor orders.
             </p>
           </div>

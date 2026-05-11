@@ -7,11 +7,11 @@ function generateData() {
     'Supplier-Epsilon',
   ]
   const productTypes = [
-    'Electrical',
-    'Plumbing',
-    'Tools',
-    'Gardening',
-    'Flooring',
+    'Beverages',
+    'Convenience',
+    'Snacks',
+    'Tobacco',
+    'Alcohol',
   ]
   const locations = ['New York', 'California', 'Texas', 'Florida', 'Washington']
   const measures = [

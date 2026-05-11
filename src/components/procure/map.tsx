@@ -26,7 +26,7 @@ export default function Map() {
               <div className="bg-white p-3 rounded-md shadow">
                 <div className="flex items-center">
                   <div className="h-3 w-3 rounded-full bg-red-500 mr-2"></div>
-                  <span className="text-sm font-medium">Watts Water Technologies (Dallas)</span>
+                  <span className="text-sm font-medium">Anheuser-Busch InBev (Dallas)</span>
                 </div>
                 <div className="text-xs text-gray-500 mt-1">Capacity: 95% (Critical)</div>
                 <div className="text-xs text-gray-500">Lead Time: 14 days</div>
@@ -35,7 +35,7 @@ export default function Map() {
               <div className="bg-white p-3 rounded-md shadow">
                 <div className="flex items-center">
                   <div className="h-3 w-3 rounded-full bg-yellow-500 mr-2"></div>
-                  <span className="text-sm font-medium">Rheem Manufacturing (Chicago)</span>
+                  <span className="text-sm font-medium">Coca-Cola Company (Chicago)</span>
                 </div>
                 <div className="text-xs text-gray-500 mt-1">Capacity: 75%</div>
                 <div className="text-xs text-gray-500">Lead Time: 18 days</div>
@@ -44,7 +44,7 @@ export default function Map() {
               <div className="bg-white p-3 rounded-md shadow">
                 <div className="flex items-center">
                   <div className="h-3 w-3 rounded-full bg-green-500 mr-2"></div>
-                  <span className="text-sm font-medium">Trane Technologies (Phoenix)</span>
+                  <span className="text-sm font-medium">Frito-Lay North America (Phoenix)</span>
                 </div>
                 <div className="text-xs text-gray-500 mt-1">Capacity: 60%</div>
                 <div className="text-xs text-gray-500">Lead Time: 21 days</div>

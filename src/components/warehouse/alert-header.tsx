@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card"
+﻿import { Card, CardContent } from "@/components/ui/card"
 import { AlertTriangle, Clock } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 
@@ -50,7 +50,7 @@ export default function AlertHeader() {
               <div>
                 <p className="font-medium text-amber-800">Alert Details</p>
                 <p className="text-sm text-amber-700 mt-1">
-                  Warehouse picking operations at Ferguson Atlanta Distribution Center are severely impacted due to a 35% labor
+                  Warehouse picking operations at 7-Eleven Atlanta Distribution Center are severely impacted due to a 35% labor
                   shortage and 40% equipment downtime. This is causing significant delays in order fulfillment and
                   increasing backlog.
                 </p>
@@ -67,7 +67,7 @@ export default function AlertHeader() {
           <div className="space-y-4">
             <div>
               <div className="text-sm text-gray-500">Location</div>
-              <div className="font-medium mt-1">Ferguson Atlanta Distribution Center</div>
+              <div className="font-medium mt-1">7-Eleven Atlanta Distribution Center</div>
             </div>
 
             <div>

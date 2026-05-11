@@ -1,7 +1,7 @@
 [
   {
     "id": "INV-2345",
-    "sku": "1/2in PEX Tubing 100ft",
+    "sku": "Slurpee Frozen Drink 32oz",
     "dc": "Denver",
     "store": "Brooklyn",
     "status": "in progress",
@@ -18,7 +18,7 @@
   },
   {
     "id": "INV-9876",
-    "sku": "Rheem 80-Gal Water Heater",
+    "sku": "Monster Energy Drink 16oz",
     "dc": "Dallas",
     "store": "Santa Monica",
     "status": "todo",
@@ -34,7 +34,7 @@
   },
   {
     "id": "INV-3241",
-    "sku": "4in Ductile Iron Pipe",
+    "sku": "Doritos Nacho Cheese 9.25oz",
     "dc": "Denver",
     "store": "Springfield",
     "status": "done",
@@ -50,7 +50,7 @@
   },
   {
     "id": "INV-4532",
-    "sku": "Viking Fire Sprinkler Head",
+    "sku": "Big Bite Hot Dog",
     "dc": "Dallas",
     "store": "Olympia",
     "status": "backlog",
@@ -66,7 +66,7 @@
   },
   {
     "id": "INV-6743",
-    "sku": "Delta Single-Handle Faucet",
+    "sku": "Gatorade Fruit Punch 32oz",
     "dc": "Denver",
     "store": "Key West",
     "status": "in progress",
@@ -82,7 +82,7 @@
   },
   {
     "id": "INV-5498",
-    "sku": "Trane 5-Ton Rooftop Unit",
+    "sku": "Corona Extra 6-Pack",
     "dc": "Chicago",
     "store": "San Jose",
     "status": "todo",
@@ -98,7 +98,7 @@
   },
   {
     "id": "INV-1387",
-    "sku": "3/4in Copper Coupling",
+    "sku": "Marlboro Red 20pk",
     "dc": "Seattle",
     "store": "Sugar Land",
     "status": "canceled",
@@ -114,7 +114,7 @@
   },
   {
     "id": "INV-8921",
-    "sku": "Watts Pressure Reducing Valve",
+    "sku": "Tylenol Extra Strength 24ct",
     "dc": "New York",
     "store": "Savannah",
     "status": "in progress",
@@ -130,7 +130,7 @@
   },
   {
     "id": "INV-7782",
-    "sku": "Carrier 3-Ton Split System AC",
+    "sku": "Red Bull Energy Drink 8.4oz",
     "dc": "Los Angeles",
     "store": "Henderson",
     "status": "backlog",
@@ -146,7 +146,7 @@
   },
   {
     "id": "INV-6673",
-    "sku": "Watts Backflow Preventer 2in",
+    "sku": "Marlboro Gold 20pk",
     "dc": "Houston",
     "store": "Mesa",
     "status": "done",
@@ -162,7 +162,7 @@
   },
   {
     "id": "INV-5423",
-    "sku": "Lennox 80K BTU Gas Furnace",
+    "sku": "Lay's Classic Potato Chips 8oz",
     "dc": "Atlanta",
     "store": "Tampa",
     "status": "in progress",
@@ -178,7 +178,7 @@
   },
   {
     "id": "INV-3245",
-    "sku": "Rinnai Tankless Water Heater",
+    "sku": "Pepsi Cola 20oz Bottle",
     "dc": "Chicago",
     "store": "Cambridge",
     "status": "backlog",
@@ -194,7 +194,7 @@
   },
   {
     "id": "INV-1583",
-    "sku": "2in Black Steel Fire Pipe",
+    "sku": "Snickers Bar King Size",
     "dc": "Houston",
     "store": "Round Rock",
     "status": "todo",
@@ -210,7 +210,7 @@
   },
   {
     "id": "INV-7874",
-    "sku": "3in PVC Schedule 40 Pipe",
+    "sku": "Coca-Cola Classic 20oz Bottle",
     "dc": "Seattle",
     "store": "Aurora",
     "status": "in progress",
@@ -226,7 +226,7 @@
   },
   {
     "id": "INV-5482",
-    "sku": "Kohler Elongated Toilet",
+    "sku": "Reese's Peanut Butter Cups",
     "dc": "New York",
     "store": "Fort Worth",
     "status": "done",
@@ -242,7 +242,7 @@
   },
   {
     "id": "INV-2143",
-    "sku": "Elkay Commercial Stainless Sink",
+    "sku": "5-Hour Energy Shot 1.93oz",
     "dc": "Los Angeles",
     "store": "Chula Vista",
     "status": "canceled",
@@ -258,7 +258,7 @@
   },
   {
     "id": "INV-3367",
-    "sku": "1in Brass Ball Valve",
+    "sku": "M&M Peanut Chocolate 3.27oz",
     "dc": "Atlanta",
     "store": "Concord",
     "status": "backlog",
@@ -274,7 +274,7 @@
   },
   {
     "id": "INV-4512",
-    "sku": "AO Smith 40-Gal Gas Water Heater",
+    "sku": "Sprite Lemon Lime 20oz Bottle",
     "dc": "Boston",
     "store": "Allentown",
     "status": "todo",
@@ -290,7 +290,7 @@
   },
   {
     "id": "INV-6729",
-    "sku": "Mitsubishi 12K BTU Mini Split",
+    "sku": "Bud Light Beer 6-Pack",
     "dc": "Chicago",
     "store": "Flint",
     "status": "in progress",
@@ -306,7 +306,7 @@
   },
   {
     "id": "INV-8471",
-    "sku": "18in Pipe Wrench",
+    "sku": "Oreo Chocolate Cookies 3oz",
     "dc": "Houston",
     "store": "Alamo Heights",
     "status": "done",
@@ -322,7 +322,7 @@
   },
   {
     "id": "INV-5632",
-    "sku": "Copper Tube Cutter",
+    "sku": "Tropicana Orange Juice 12oz",
     "dc": "Atlanta",
     "store": "Nashville",
     "status": "backlog",
@@ -338,7 +338,7 @@
   },
   {
     "id": "INV-4219",
-    "sku": "3/4in Push-Fit Coupling",
+    "sku": "Arizona Iced Tea 23oz Can",
     "dc": "Boston",
     "store": "Cincinnati",
     "status": "todo",
@@ -354,7 +354,7 @@
   },
   {
     "id": "INV-7865",
-    "sku": "1/2in Copper Pipe Type L",
+    "sku": "Pringles Original Crisps 5.5oz",
     "dc": "Memphis",
     "store": "Clarksville",
     "status": "in progress",
@@ -370,7 +370,7 @@
   },
   {
     "id": "INV-8472",
-    "sku": "PVC DWV Wye Fitting 3in",
+    "sku": "Starbucks Frappuccino 13.7oz",
     "dc": "Dallas",
     "store": "Norman",
     "status": "done",
@@ -386,7 +386,7 @@
   },
   {
     "id": "INV-4378",
-    "sku": "50-Gal Electric Water Heater",
+    "sku": "Coors Light Beer 12-Pack",
     "dc": "Chicago",
     "store": "Carmel",
     "status": "backlog",
@@ -402,7 +402,7 @@
   },
   {
     "id": "INV-9821",
-    "sku": "Grundfos Circulator Pump",
+    "sku": "Cheetos Crunchy 8.5oz",
     "dc": "Miami",
     "store": "Hollywood",
     "status": "todo",
@@ -418,7 +418,7 @@
   },
   {
     "id": "INV-7812",
-    "sku": "Mueller Fire Hydrant",
+    "sku": "Mountain Dew 20oz Bottle",
     "dc": "Detroit",
     "store": "Akron",
     "status": "in progress",
@@ -434,7 +434,7 @@
   },
   {
     "id": "INV-2365",
-    "sku": "Navien Tankless Combo Unit",
+    "sku": "Dr Pepper 20oz Bottle",
     "dc": "Denver",
     "store": "Overland Park",
     "status": "canceled",
