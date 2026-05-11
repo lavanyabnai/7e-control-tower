@@ -1,9 +1,9 @@
 'use client';
 
 import { DataTable } from '@/components/data-table';
-import taskData from '@/app/(dashboard)/workspaces/[workspaceId]/orders/incidents/task.json';
+import taskData from '@/app/(dashboard)/orders/incidents/task.json';
 
-import { columns } from '@/app/(dashboard)/workspaces/[workspaceId]/orders/incidents/columns';
+import { columns } from '@/app/(dashboard)/orders/incidents/columns';
 
 export default function IncidentPage() {
 

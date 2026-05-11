@@ -2,7 +2,7 @@
 
 // import { getCurrent } from "@/features/auth/queries";
 
-import { WorkspaceIdClient } from "@/app/(dashboard)/workspaces/[workspaceId]/client";
+import { WorkspaceIdClient } from "@/app/(dashboard)/client";
 
 const WorkspaceIdPage = async () => {
   // const user = await getCurrent();

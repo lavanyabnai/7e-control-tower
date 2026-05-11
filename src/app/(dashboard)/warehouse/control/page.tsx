@@ -8,7 +8,7 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 
-import AlertsTab  from "@/app/(dashboard)/workspaces/[workspaceId]/warehouse/warecontrol/page";
+import AlertsTab from "@/app/(dashboard)/warehouse/warecontrol/page";
 
 
 export default function DashboardPage() {

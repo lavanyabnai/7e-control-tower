@@ -5,7 +5,7 @@ import { DataTable } from '@/components/data-table';
 import { DataFilters } from "@/components/dashboard/alerts/data-filters";
 import { columns } from '@/components/dashboard/alerts/columns';
 
-import tasks from '@/app/(dashboard)/workspaces/[workspaceId]/warehouse/warecontrol/tasks.json';
+import tasks from '@/app/(dashboard)/warehouse/warecontrol/tasks.json';
 
 
 // import { useGetAlerts } from "@/features/alerts/api/use-get-alerts";
