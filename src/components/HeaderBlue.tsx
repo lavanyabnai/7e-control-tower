@@ -1,0 +1,121 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { MobileSidebar } from "./mobile-sidebar";
+import { GlobalSearch } from "./global-search";
+
+import { TowerControl, Boxes, PackageCheck, Warehouse, HandCoins, Banknote, Truck, CalendarClock, Gauge } from "lucide-react";
+
+import { MegaDropdownCategories } from "@/components/mega-dropdown-categories";
+
+export const HeaderBlue = () => {
+  const categories = [
+    {
+      category: "Supply Chain Modules",
+      items: [
+        {
+          name: "Control Tower",
+          description: "Distribution network performance & OTIF monitoring",
+          shortDescription: "Network Performance & OTIF",
+          to: `/controlKpi/supplyChain`,
+          icon: TowerControl,
+          iconBackground: "bg-violet-100",
+          iconForeground: "text-violet-700",
+          highlight: true,
+        },
+        {
+          name: "e2e Supply Chain",
+          description: "End-to-end wholesale distribution pipeline",
+          shortDescription: "End to End Distribution",
+          to: `/inventory/dashboard`,
+          icon: Boxes,
+          iconBackground: "bg-blue-100",
+          iconForeground: "text-blue-700",
+        },
+        {
+          name: "Orders",
+          description: "Customer order management & allocation",
+          shortDescription: "Order Management",
+          to: `/orders/home`,
+          icon: PackageCheck,
+          iconBackground: "bg-emerald-100",
+          iconForeground: "text-emerald-700",
+        },
+        {
+          name: "Warehousing",
+          description: "Distribution center operations",
+          shortDescription: "Distribution Center Ops",
+          to: `/warehouse/control`,
+          icon: Warehouse,
+          iconBackground: "bg-purple-100",
+          iconForeground: "text-purple-700",
+        },
+        {
+          name: "Procurement",
+          description: "Vendor & supplier management",
+          shortDescription: "Vendor Management",
+          to: `/procure/procureGov`,
+          icon: HandCoins,
+          iconBackground: "bg-orange-100",
+          iconForeground: "text-orange-700",
+        },
+        {
+          name: "Finance",
+          description: "Manage finance",
+          shortDescription: "Finance Management",
+          to: `/financeRoute/finance`,
+          icon: Banknote,
+          iconBackground: "bg-yellow-100",
+          iconForeground: "text-yellow-700",
+        },
+        {
+          name: "Transportation",
+          description: "Manage transportation",
+          shortDescription: "Transportation Management",
+          to: `/transport/alerts`,
+          icon: Truck,
+          iconBackground: "bg-indigo-100",
+          iconForeground: "text-indigo-700",
+        },
+        {
+          name: "Master Scheduling",
+          description: "Demand vs supply scheduling summary",
+          shortDescription: "Master Scheduling Summary",
+          to: `/controlKpi/master-scheduling`,
+          icon: CalendarClock,
+          iconBackground: "bg-teal-100",
+          iconForeground: "text-teal-700",
+        },
+        {
+          name: "Asset Utilization",
+          description: "Track and optimize asset usage across operations",
+          shortDescription: "Asset Usage & Optimization",
+          to: `/assets/utilization`,
+          icon: Gauge,
+          iconBackground: "bg-rose-100",
+          iconForeground: "text-rose-700",
+          fullWidth: true,
+        },
+      ],
+    },
+  ];
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50">
+      <nav className="py-4 px-6 flex items-center justify-between bg-[#000]">
+        <div className="flex items-center gap-x-2">
+          <MobileSidebar />
+          <Link href="/" className="flex items-center gap-2">
+            <Image className="" src="/assets/7e-logo-color.svg" alt="7-Eleven logo" width={40} height={40} />
+           
+          </Link>
+        </div>
+        <GlobalSearch />
+        <div className="flex items-center gap-2">
+          <MegaDropdownCategories categories={categories} />
+        </div>
+      </nav>
+    </header>
+  );
+};
