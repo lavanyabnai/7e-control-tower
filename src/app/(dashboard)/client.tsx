@@ -32,6 +32,8 @@ export const WorkspaceIdClient = () => {
   const { data: projects, isLoading: isLoadingProjects } = useGetProjects({ workspaceId });
   const { data: members, isLoading: isLoadingMembers } = useGetMembers({ workspaceId });
 
+  if (!workspaceId) return null;
+
   const isLoading =
     isLoadingAnalytics ||
     isLoadingTasks ||
@@ -43,7 +45,7 @@ export const WorkspaceIdClient = () => {
   }
 
   if (!analytics || !tasks || !projects || !members) {
-    return <PageError message="Failed to load workspace data" />
+    return null;
   }
 
   return (
