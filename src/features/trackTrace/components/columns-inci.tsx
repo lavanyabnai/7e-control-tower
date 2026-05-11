@@ -8,16 +8,13 @@ import { statuses } from '@/features/trackTrace/components/data'
 import { Task } from '@/features/trackTrace/components/schema'
 
 import { useRouter } from 'next/navigation'
-import { useWorkspaceId } from '@/features/workspaces/hooks/use-workspace-id';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ActionCell = ({ row }: { row: any }) => {
-  const workspaceId = useWorkspaceId();
   const router = useRouter();
   return (
     <ButtonNormal
       className="bg-yellow-50 border border-yellow-300 text-yellow-700 hover:bg-yellow-100"
-      // onClick={() => router.push(`/workspaces/${row.original.workspaceId}/incidents/${row.original.id}/exp/${row.original.expId}`)}
-      onClick={() => router.push(`/workspaces/${workspaceId}/warehouse/track/${row.original.orderId}`)}
+      onClick={() => router.push(`/warehouse/track/${row.original.orderId}`)}
     >
       Open Order
     </ButtonNormal>
