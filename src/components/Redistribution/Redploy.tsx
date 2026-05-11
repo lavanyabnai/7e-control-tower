@@ -12,92 +12,51 @@ import {
 import { Progress } from '@/components/ui/progress'
 import { AgChartsReact } from 'ag-charts-react'
 import { generatedDeficitData, generatedInventoryExcess } from './excessDeficit'
-
-// ✅ Import enterprise chart support
-import 'ag-charts-enterprise'
-
-// ✅ Use correct types from ag-charts-enterprise
-import type { AgChartOptions, AgTreemapSeriesOptions } from 'ag-charts-enterprise'
+import type { AgChartOptions } from 'ag-charts-community'
 
 const inventory = [
-    {
-        title: 'SKU-775833',
-        location: 'Location016',
-        deficit: '1.9M',
-        percent: 9,
-    },
-    {
-        title: 'SKU-569018',
-        location: 'Location017',
-        deficit: '0.6M',
-        percent: 20,
-    },
-    {
-        title: 'SKU-166046',
-        location: 'Location018',
-        deficit: '1.8M',
-        percent: 58,
-    },
-    {
-        title: 'SKU-144887',
-        location: 'Location019',
-        deficit: '0.4M',
-        percent: 76,
-    },
+    { title: 'SKU-775833', location: 'Location016', deficit: '1.9M', percent: 9 },
+    { title: 'SKU-569018', location: 'Location017', deficit: '0.6M', percent: 20 },
+    { title: 'SKU-166046', location: 'Location018', deficit: '1.8M', percent: 58 },
+    { title: 'SKU-144887', location: 'Location019', deficit: '0.4M', percent: 76 },
 ]
 
-const deficit = [...inventory] // same for this example
+const deficit = [...inventory]
 
-const dataExcess = generatedInventoryExcess
-const dataDeficit = generatedDeficitData
+const buildBarOptions = (
+    data: { title: string; percent: number }[],
+    yName: string,
+    color: string
+): AgChartOptions => ({
+    data: data.flatMap((d) =>
+        'children' in (d as any)
+            ? (d as any).children
+            : [d]
+    ),
+    series: [
+        {
+            type: 'bar',
+            xKey: 'title',
+            yKey: 'percent',
+            yName,
+            fill: color,
+            cornerRadius: 4,
+        },
+    ],
+    axes: [
+        { type: 'category', position: 'bottom', label: { rotation: -45, fontSize: 10 } },
+        { type: 'number', position: 'left', title: { text: yName } },
+    ],
+    background: { fill: 'transparent' },
+})
 
 export default function Redploy() {
-    const [options] = useState<AgChartOptions>({
-        data: dataExcess,
-        series: [
-            {
-                type: 'treemap',
-                labelKey: 'title',
-                secondaryLabelKey: 'excess',
-                sizeKey: 'percent',
-                sizeName: 'Excess',
-                fills: ['#43A047'],
-                group: {
-                    label: {
-                        fontSize: 18,
-                        spacing: 2,
-                    },
-                    secondaryLabel: {
-                        formatter: (params: any) => `£${params.value.toFixed(1)}bn`,
-                    },
-                },
-            } as AgTreemapSeriesOptions,
-        ],
-    })
-
-    const [options2] = useState<AgChartOptions>({
-        data: dataDeficit,
-        series: [
-            {
-                type: 'treemap',
-                labelKey: 'title',
-                secondaryLabelKey: 'deficit',
-                sizeKey: 'percent',
-                sizeName: 'Deficit',
-                strokes: ['#000'],
-                fills: ['#FF5722'],
-                group: {
-                    label: {
-                        fontSize: 18,
-                        spacing: 2,
-                    },
-                    secondaryLabel: {
-                        formatter: (params: any) => `£${params.value.toFixed(1)}bn`,
-                    },
-                },
-            } as AgTreemapSeriesOptions,
-        ],
-    })
+    const [excessOptions] = useState<AgChartOptions>(() =>
+        buildBarOptions(generatedInventoryExcess as any, 'Excess %', '#43A047')
+    )
+    const [deficitOptions] = useState<AgChartOptions>(() =>
+        buildBarOptions(generatedDeficitData as any, 'Deficit %', '#FF5722')
+    )
 
     return (
         <div className="bg-white rounded-b-lg border w-full">
@@ -126,8 +85,8 @@ export default function Redploy() {
                             ))}
                         </TableBody>
                     </Table>
-                    <div className="w-full h-[500px] mt-4">
-                        <AgChartsReact options={options as AgChartOptions} />
+                    <div className="w-full h-[400px] mt-4">
+                        <AgChartsReact options={excessOptions} />
                     </div>
                 </div>
 
@@ -155,8 +114,8 @@ export default function Redploy() {
                             ))}
                         </TableBody>
                     </Table>
-                    <div className="w-full h-[500px] mt-4">
-                        <AgChartsReact options={options2 as AgChartOptions} />
+                    <div className="w-full h-[400px] mt-4">
+                        <AgChartsReact options={deficitOptions} />
                     </div>
                 </div>
             </div>
